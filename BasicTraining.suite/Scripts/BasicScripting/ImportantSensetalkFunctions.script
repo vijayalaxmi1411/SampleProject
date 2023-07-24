@@ -1,0 +1,59 @@
+﻿-- ImageLocation() will give the center hotspot coordinates of the text\image----------
+put ImageLocation(text:"Laptops")
+
+
+log "Phones Coordinates"&& imageLocation(text:"Phones")
+put ImageLocation("Galaxy s6")
+log "Samsung Mobile Coordinates"&& imageLocation(imageName:"Samsunggalaxys6Mobile")
+
+------EveryImageLocation() will give the count of multiple instances of the same text -------------
+
+put everyImageLocation(text:"Samsung galaxy s6") into samsung_mobile
+log the number of items of samsung_mobile
+click item 1 of samsung_mobile
+
+log the number of items of EveryImageLocation(text:"Samsung galaxy s6")
+click item 1 of everyImageLocation(text:"Samsung galaxy s6")
+
+------- ImageFound() will give true if the image/text found on the screen if not give false in the console --------------
+
+put ImageFound("Phones_Link") -- It gives true as the image is found on the current screen
+if ImageFound("Phones_Link")
+	LogSuccess "Text found in the screen"
+else
+	LogError "Not found"
+end if
+
+put ImageFound(text:"Laptops") --- Will print True in the console
+
+put ImageFound(imageName:"Phones", waitFor:5)
+
+
+click imageName:"Phones"
+click text:"Phones"
+click imageLocation(imageName:"Phones")
+put ImageLocation("ContactsIcon/ContactsIcon")
+
+click text:"Phones"
+
+click imageLocation(text:"Phones")
+wait 2
+click imageLocation("Phones_Link2")
+
+put everyImageLocation(text:"o") into letters
+log the number of items of letters
+
+MoveTo imageLocation(text:"Monitors")
+
+
+log the number of items of everyImageLocation(text:"o")
+
+put ImageFound(text:"Contacts Icon")
+
+------------------------------------
+
+put imageLocation(imageName:"ContactsIcon")
+
+
+
+

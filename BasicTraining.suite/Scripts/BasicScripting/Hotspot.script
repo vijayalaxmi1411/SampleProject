@@ -1,0 +1,72 @@
+﻿click text:"Sign up",ignoreSpaces:YES
+WaitFor 30, text:"Username:", EnhanceLocalContrast:"Yes"
+click text:"username", EnhanceLocalContrast:"Yes",hotspot:[2,60]
+wait 3
+typetext "TestingUser"
+click text:"Password",hotspot:[2,60]
+wait 3
+typetext "Password@123"
+
+---- Hotspot Using Images -----------
+click text:"Log in",ignoreSpaces:Yes
+WaitFor 30, text:"Username"
+click imageName:"Username"
+wait 3
+typetext "TestingUser"
+click imageName:"Password"
+wait 3
+typetext "Password@123"
+
+
+--- ImageCollections--------------
+Rightclick imageName:"ChromeIcon"
+
+click text:"Favorites"
+
+
+Click "Samsunggalaxys6Mobile"
+
+
+
+---- Using Hotspot--------------------
+click text:"Sort by",hotspot:[70,2]
+
+click ImageLocation(text:"Sort by")+[80,2]
+
+click ImageLocation(text:"Favorites")+[260,2]
+
+click imageName:"CarrierTime"
+
+click imageName:"HistoryReference"
+
+
+Click text:"Contacts",hotspot:[100,1]
+
+
+
+
+click text:"lie"
+
+log RemoteScreenSize()
+
+
+
+WaitFor 30, text:"Username"
+click imageName:"Username1"
+wait 3
+typetext "TestingUser"
+click imageName:"Password2"
+wait 3
+typetext "Password@123"
+
+
+
+click imageName:"ContactsIcon"
+
+
+click imageName:"UsernameDblaze"
+typetext "Vijaya"
+
+
+click imageName:"SelectedSamsung"
+

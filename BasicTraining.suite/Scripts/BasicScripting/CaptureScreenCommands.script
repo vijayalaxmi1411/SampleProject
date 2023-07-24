@@ -1,0 +1,57 @@
+﻿--------------- It captures the entire screen with the given name in default folder (C:\Users\<username>\Documents) ------------------------
+CaptureScreen name:"HTC One M9 Product Description"
+
+CaptureScreen name:"Sony Vaio i5"
+
+----------------- It captures the entire screen with the default name into default folder (C:\Users\<username>\Documents) -------------------
+CaptureScreen
+
+
+----------- To capture the SUT screen into Suites Images folder ----------------
+
+log suiteInfo()
+
+log suiteInfo().imagesFolder
+
+CaptureScreen {name:SuiteInfo().ImagesFolder & slash & EggplantSUTScreenshots & slash & "SonyVaioI5"}
+
+
+CaptureScreen {name:SuiteInfo().ImagesFolder & slash & EggplantSUTScreenshots & slash & "ProductDescription",Rectangle:[738,206,1898,476]}
+
+
+
+--------- CaptureScreen with Specific rectangle coordinates --------------------
+
+CaptureScreen {Name: "HTC One M9 Mobile", Rectangle:[738,206,1898,476]}
+
+
+------- CaptureScreen command with increment Property ------------------
+
+
+CaptureScreen {Name: "HTC One M9 Mobile", increment:Yes}
+CaptureScreen {Name: "HTC", Rectangle: [20,235,441,518],increment:yes}
+
+CaptureScreen {Name:"TutorialSUT",increment:Yes}
+
+log SuiteInfo()
+
+--------------------------
+typetext windowsKey,r
+typetext "Chrome demoblaze.com",return
+
+CaptureScreen name:"Run Window"
+WaitFor 60, text:"PRODUCT STORE"
+CaptureScreen {name:SuiteInfo().ImagesFolder & slash & DemoblazeAppScreenshots & slash & "DemoblazeHomePage"}
+click imageName:"Samsunggalaxys6Mobile/Samsunggalaxys6_2"
+CaptureScreen {Name: "Samsung Galaxy Mobile", Rectangle: [57,252,416,493]}
+click text:"Add to cart"
+CaptureScreen {Name: "Samsung Galaxy Mobile", Rectangle: [57,252,416,493],increment:Yes}
+
+
+StartMovie 
+
+
+
+StopMovie
+
+click imageName:"ContactsIcon"

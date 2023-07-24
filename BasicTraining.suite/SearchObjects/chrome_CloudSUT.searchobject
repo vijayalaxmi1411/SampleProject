@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		49,
+		24,
+		50,
+		50
+	],
+	"lastmodifieddate": 1686740398.615,
+	"createddate": 1686740398.615,
+	"name": "chrome_CloudSUT",
+	"lastfounddate": 1686740484.6259999,
+	"ocrcapturestring": "c",
+	"lastfoundlocation": [
+		49,
+		232,
+		50,
+		50
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[19,34]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "chrome_CloudSUT.png",
+				"connectionname": "CloudSut1",
+				"type": 1,
+				"connectionserverid": "ec2-176-34-166-185.eu-west-1.compute.amazonaws.com",
+				"capturerect": [
+					49,
+					24,
+					50,
+					50
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "c"
+			}
+	]
+}

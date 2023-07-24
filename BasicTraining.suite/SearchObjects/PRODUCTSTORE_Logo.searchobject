@@ -1,0 +1,41 @@
+{
+	"originalcapturelocation": [
+		80,
+		129,
+		165,
+		19
+	],
+	"lastmodifieddate": 1679296475.2,
+	"createddate": 1679296338.905,
+	"name": "PRODUCTSTORE_Logo",
+	"lastfounddate": 1689935847.2849998,
+	"ocrcapturestring": "PRODUCT STORE",
+	"lastfoundlocation": [
+		80,
+		97,
+		165,
+		19
+	],
+	"testlocationdata": [
+		{
+				"capturedocrtext": "PRODUCT STORE",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[92,5]",
+					"Tolerance": "_70",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"type": 1,
+				"capturerect": [
+					80,
+					129,
+					165,
+					19
+				],
+				"name": "PRODUCTSTORE_Logo/PRODUCTSTORE_Logo.png"
+			}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"originalcapturelocation": [
+		701,
+		731,
+		198,
+		26
+	],
+	"lastmodifieddate": 1684820944.51,
+	"createddate": 1684820944.51,
+	"name": "Samsunggalaxys6Mobile/Samsunggalaxys6_1",
+	"lastfounddate": 1688626431.5770001,
+	"ocrcapturestring": "Samsung galaxy s6",
+	"lastfoundlocation": [
+		701,
+		699,
+		198,
+		26
+	],
+	"testlocationdata": [
+		{
+				"capturedocrtext": "Samsung galaxy s6",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[86,6]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"type": 1,
+				"capturerect": [
+					701,
+					731,
+					198,
+					26
+				],
+				"name": "Samsunggalaxys6Mobile/Samsunggalaxys6_1.png"
+			}
+	]
+}

@@ -1,0 +1,40 @@
+1	0.013	start	
+2	1.978	mouseDown	{button:1, clickCount:1, hotSpot:[31.86722, 131.699422]}
+3	2.241	mouseUp	{button:1, clickCount:1, hotSpot:[31.86722, 131.699422]}
+4	2.252	mouseDown	{button:1, clickCount:2, hotSpot:[31.86722, 131.699422]}
+5	2.475	mouseUp	{button:1, clickCount:0, hotSpot:[31.86722, 131.699422]}
+6	7.3	keyDown	{modifiers:0, string:"d", theKey:"d"}
+7	7.534	keyDown	{modifiers:0, string:"e", theKey:"e"}
+8	7.545	keyUp	{modifiers:0, string:"d", theKey:"d"}
+9	7.566	keyUp	{modifiers:0, string:"e", theKey:"e"}
+10	7.587	keyDown	{modifiers:0, string:"m", theKey:"m"}
+11	7.8	keyDown	{modifiers:0, string:"o", theKey:"o"}
+12	7.811	keyUp	{modifiers:0, string:"m", theKey:"m"}
+13	7.875	keyUp	{modifiers:0, string:"o", theKey:"o"}
+14	8.323	keyDown	{modifiers:0, string:"b", theKey:"b"}
+15	8.43	keyUp	{modifiers:0, string:"b", theKey:"b"}
+16	8.601	keyDown	{modifiers:0, string:"l", theKey:"l"}
+17	8.699	keyUp	{modifiers:0, string:"l", theKey:"l"}
+18	8.793	keyDown	{modifiers:0, string:"a", theKey:"a"}
+19	8.878	keyUp	{modifiers:0, string:"a", theKey:"a"}
+20	8.985	keyDown	{modifiers:0, string:"z", theKey:"z"}
+21	9.176	keyUp	{modifiers:0, string:"z", theKey:"z"}
+22	9.273	keyDown	{modifiers:0, string:"e", theKey:"e"}
+23	9.369	keyUp	{modifiers:0, string:"e", theKey:"e"}
+24	9.465	keyDown	{modifiers:0, string:".", theKey:"."}
+25	9.561	keyDown	{modifiers:0, string:"c", theKey:"c"}
+26	9.561	keyUp	{modifiers:0, string:".", theKey:"."}
+27	9.763	keyUp	{modifiers:0, string:"c", theKey:"c"}
+28	9.774	keyDown	{modifiers:0, string:"o", theKey:"o"}
+29	9.885	keyUp	{modifiers:0, string:"o", theKey:"o"}
+30	9.992	keyDown	{modifiers:0, string:"m", theKey:"m"}
+31	10.105	keyUp	{modifiers:0, string:"m", theKey:"m"}
+32	11.161	keyDown	{modifiers:0, string:@"\r", theKey:@"\r"}
+33	11.246	keyUp	{modifiers:0, string:@"\r", theKey:@"\r"}
+34	16.472	mouseDown	{button:1, clickCount:1, hotSpot:[724.979253, 750.242775], waitFor:4}
+35	16.709	mouseUp	{button:1, clickCount:1, hotSpot:[724.979253, 750.242775]}
+36	20.061	mouseDown	{button:1, clickCount:1, hotSpot:[884.315353, 528.277457]}
+37	20.259	mouseUp	{button:1, clickCount:1, hotSpot:[884.315353, 528.277457]}
+38	22.062	mouseDown	{button:1, clickCount:1, hotSpot:[1125.975104, 162.774566]}
+39	22.311	mouseUp	{button:1, clickCount:1, hotSpot:[1125.975104, 162.774566]}
+40	25.411	end	

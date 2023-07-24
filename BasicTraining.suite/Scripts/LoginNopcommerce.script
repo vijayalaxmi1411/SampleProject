@@ -1,0 +1,74 @@
+﻿(*** Autosnippet script "LoginNopcommerce" generated 2023-07-06 by Vijayalakshmi. Keep this comment for use with Eggplant AI. ***)
+(* Already generated snippets can be edited in the script below *)
+(* To customize the snippet generation templates, affecting snippets generated in the future,
+go to Eggplant > Preferences... > Script > General > Customize *)
+
+
+(* Autosnippets for Field "Email" *)
+
+to handle Email_EnterText theValue, terminator
+	// Assumes the hot spot has been set over the text field
+	// and that the field is already empty.
+	
+	// Click the location of the hot spot.
+	Click imageName:"Email", waitFor:8
+	//Type theValue and optional terminator (such as 'return' or 'tab') into the field.
+	TypeText theValue, terminator
+end Email_EnterText
+
+to handle Email_ReadText
+	// Assumes the hot spot has been set over the text field.
+	
+	// Use OCR to read the text around that hot spot point.
+	set theText to readText(imageLocation(imageName:"Email"))
+	// Any additional cleanup of the text could be done here before returning the value, such as:
+	// set theText to trim(theText) -- remove leading/trailing whitespace
+	return theText
+end Email_ReadText
+
+-----------------------------------
+
+
+(* Autosnippets for Field "PasswordNopcommerce" *)
+
+to handle PasswordNopcommerce_EnterText theValue, terminator
+	// Assumes the hot spot has been set over the text field
+	// and that the field is already empty.
+	
+	// Click the location of the hot spot.
+	Click imageName:"PasswordNopcommerce", waitFor:8
+	//Type theValue and optional terminator (such as 'return' or 'tab') into the field.
+	TypeText theValue, terminator
+end PasswordNopcommerce_EnterText
+
+to handle PasswordNopcommerce_ReadText
+	// Assumes the hot spot has been set over the text field.
+	
+	// Use OCR to read the text around that hot spot point.
+	set theText to readText(imageLocation(imageName:"PasswordNopcommerce"))
+	// Any additional cleanup of the text could be done here before returning the value, such as:
+	// set theText to trim(theText) -- remove leading/trailing whitespace
+	return theText
+end PasswordNopcommerce_ReadText
+
+-----------------------------------
+
+
+(* Autosnippets for Button "LOGIN" *)
+
+to handle LOGIN_Click
+	Click imageName:"LOGIN", waitFor:8
+end LOGIN_Click
+
+-----------------------------------
+
+
+(*** End of Autosnippet script LoginNopcommerce.script ***)
+
+
+
+Email_EnterText "test@gmail.com"
+
+Email_ReadText
+log the result
+

@@ -1,0 +1,41 @@
+{
+	"originalcapturelocation": [
+		1118,
+		730,
+		59,
+		23
+	],
+	"lastmodifieddate": 1684821176.4029999,
+	"createddate": 1684821176.4029999,
+	"name": "1520",
+	"lastfounddate": 1688455659.941,
+	"ocrcapturestring": "1520",
+	"lastfoundlocation": [
+		1118,
+		698,
+		59,
+		23
+	],
+	"testlocationdata": [
+		{
+				"capturedocrtext": "1520",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[29,11]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"type": 1,
+				"capturerect": [
+					1118,
+					730,
+					59,
+					23
+				],
+				"name": "1520.png"
+			}
+	]
+}

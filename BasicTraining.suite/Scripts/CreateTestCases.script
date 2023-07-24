@@ -1,0 +1,42 @@
+﻿BeginTestCase "TC1"
+log "1"
+log "2"
+wait 3
+log "3"
+EndTestCase "TC1"
+
+
+BeginTestCase "TC2"
+logSuccess "executed"
+wait 3
+LogWarning "non fatal error"
+EndTestCase "TC2"
+
+
+
+StartMovie "LatestDemoblazeExecution"
+typetext windowsKey,r
+typetext "chrome demoblaze.com",return
+set the searchRectangle to screen_part_handler.ScreenPart("BottomRightQuadrant")
+wait 3
+set the searchRectangle to []
+if ImageFound(text:"Add to cart",waitFor:1)
+	logSuccess "Description page opened"
+end if
+click text:"OK"
+WaitFor 30, text:"Laptops"
+click text:"Nokia lumia"
+StopMovie
+
+
+
+click text:"Add to cart",searchRectangle:screen_part_handler.ScreenPart("VerticalMiddle")
+
+
+StartMovie "TutorialSUTRecording"
+click text:"Contacts"
+wait 2
+click text:"Favorites"
+click text:"Downloads"
+StopMovie
+

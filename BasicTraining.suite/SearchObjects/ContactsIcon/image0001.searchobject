@@ -1,0 +1,35 @@
+{
+	"lastmodifieddate": 1686913376.9190001,
+	"ocrcapturestring": "J",
+	"originalcapturelocation": [
+		0,
+		0,
+		16,
+		37
+	],
+	"createddate": 1684821173.598,
+	"testlocationdata": [
+		{
+				"capturedocrtext": "J",
+				"deleted": true,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[8,18]",
+					"Tolerance": "_1",
+					"Discrepancy": "_0",
+					"SearchType": "Precise to Pixel"
+				},
+				"type": 1,
+				"capturerect": [
+					0,
+					0,
+					16,
+					37
+				],
+				"name": "ContactsIcon/image0001.png"
+			}
+	],
+	"name": "ContactsIcon/image0001"
+}

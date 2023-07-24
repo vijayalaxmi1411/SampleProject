@@ -1,0 +1,72 @@
+{
+	"lastmodifieddate": 1685508451.075,
+	"lastfoundlocation": [
+		19,
+		98,
+		34,
+		28
+	],
+	"originalcapturelocation": [
+		19,
+		98,
+		34,
+		28
+	],
+	"createddate": 1685508391.085,
+	"lastfounddate": 1688453633.8380001,
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[17,14]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "RecycleBin/RecycleBin_81SUT.png",
+				"connectionname": "81-SUT",
+				"type": 1,
+				"capturerect": [
+					19,
+					98,
+					34,
+					28
+				],
+				"connectiontype": "RDP",
+				"connectionserverid": "192.168.1.81"
+			},
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[17,14]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "RecycleBin/RecycleBin_81SUT_1.png",
+				"connectionname": "81-SUT",
+				"type": 1,
+				"capturerect": [
+					19,
+					98,
+					34,
+					28
+				],
+				"connectiontype": "RDP",
+				"connectionserverid": "192.168.1.81"
+			}
+	],
+	"name": "RecycleBin/RecycleBin_81SUT"
+}

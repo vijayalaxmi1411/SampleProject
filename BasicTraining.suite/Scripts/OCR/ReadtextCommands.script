@@ -1,0 +1,55 @@
+﻿---- readtext using images--------------
+put ReadText("NopcommerceTopLeft", "NopcommerceBottomright") into WelcomeText
+wait 2
+Log WelcomeText
+put WelcomeText
+
+put ReadText([350,793,1402,896]) -- using coordinates
+
+---- Read text using certain point ---------------------
+put readtext(text:"Online shopping") into Description
+log Description
+
+put readtext(text:"Welcome") into Description
+log Description
+
+---- Using readtext() with properties like ValidWords, ValidPattern,etc., --------------------
+
+--- 5 Letters -----
+--- 4 Digits -------
+-- 1 Letter --------
+
+put ReadText([280,290,514,358],validPattern:"[A-Z][A-Z][A-Z][A-Z][A-Z][0-9][0-9][0-9][0-9][A-Z]") into Number
+log Number
+
+
+log ReadText([371,292,738,389])
+
+log ReadText(text:"Do you like")
+
+log readtext(text:"Add to cart")
+
+click item 2 of EveryImageLocation(text:"ADD TO CART")
+
+
+put ImageRectangle(text:"Apple iCam") into Var
+set the SearchRectangle to [[Var.left,Var.top+65],[Var.Right,Var.bottom+80]]
+wait 2
+put ReadText(the SearchRectangle) into Price
+log Price
+
+--- it is a example for keysight website ----------------
+put imageLocation(text:"Keysight Blogs") into KGB
+set the searchRectangle to [[KGB.x+220,KGB.y-40],[KGB.x+750,KGB.y+25]]
+wait 10
+
+click text:"INSIGHTS",searchRectangle:[340,105,1463,206]
+click text:"SOFTWARE TESTING",caseSensitive:On
+
+set the searchRectangle to [340,105,1463,206]
+
+click text:"INSIGHTS"
+set the searchRectangle to []
+click text:"Software Testing"
+
+

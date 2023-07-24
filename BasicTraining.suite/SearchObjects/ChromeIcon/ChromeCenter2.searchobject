@@ -1,0 +1,72 @@
+{
+	"lastmodifieddate": 1685508271.7719998,
+	"lastfoundlocation": [
+		14,
+		600,
+		49,
+		12
+	],
+	"originalcapturelocation": [
+		13,
+		180,
+		51,
+		14
+	],
+	"createddate": 1685508135.3299999,
+	"lastfounddate": 1688455377.178,
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[25,7]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "ChromeIcon/ChromeCenter2/ChromeCenter2.png",
+				"connectionname": "81-SUT",
+				"type": 1,
+				"capturerect": [
+					13,
+					180,
+					51,
+					14
+				],
+				"connectiontype": "RDP",
+				"connectionserverid": "192.168.1.81"
+			},
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[24,6]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "ChromeIcon/ChromeCenter2/ChromeCenter2_CEdge.png",
+				"connectionname": "81-SUT",
+				"type": 1,
+				"capturerect": [
+					14,
+					180,
+					49,
+					12
+				],
+				"connectiontype": "RDP",
+				"connectionserverid": "192.168.1.81"
+			}
+	],
+	"name": "ChromeIcon/ChromeCenter2"
+}

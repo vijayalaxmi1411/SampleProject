@@ -1,0 +1,34 @@
+{
+	"lastmodifieddate": 1684820946.608,
+	"ocrcapturestring": "Cart",
+	"originalcapturelocation": [
+		1216,
+		131,
+		44,
+		20
+	],
+	"createddate": 1684820946.608,
+	"testlocationdata": [
+		{
+				"capturedocrtext": "Cart",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Tolerance": "_64",
+					"HotSpot": "[19,10]",
+					"Scale": "    1",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"type": 1,
+				"capturerect": [
+					1216,
+					131,
+					44,
+					20
+				],
+				"name": "CartIcon.png"
+			}
+	],
+	"name": "CartIcon"
+}

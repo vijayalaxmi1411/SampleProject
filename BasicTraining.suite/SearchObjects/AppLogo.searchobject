@@ -1,0 +1,39 @@
+{
+	"lastmodifieddate": 1681824838.1329999,
+	"lastfoundlocation": [
+		404,
+		114,
+		52,
+		52
+	],
+	"originalcapturelocation": [
+		404,
+		114,
+		52,
+		52
+	],
+	"createddate": 1681824838.1329999,
+	"lastfounddate": 1684819775.424,
+	"testlocationdata": [
+		{
+				"name": "AppLogo.png",
+				"type": 1,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[23,27]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"capturerect": [
+					404,
+					114,
+					52,
+					52
+				]
+			}
+	],
+	"name": "AppLogo"
+}

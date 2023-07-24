@@ -1,0 +1,41 @@
+{
+	"lastmodifieddate": 1689934882.2490001,
+	"ocrcapturestring": "New tab",
+	"originalcapturelocation": [
+		268,
+		41,
+		88,
+		31
+	],
+	"createddate": 1689934882.2490001,
+	"testlocationdata": [
+		{
+				"connectionportnum": 5919,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Tolerance": "_57",
+					"HotSpot": "[44,15]",
+					"Scale": "    1",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Newtab/Newtab_1.png",
+				"connectionname": "CloudSUT-8",
+				"type": 1,
+				"connectionserverid": "tcsesuts.eggplantlab.com",
+				"capturerect": [
+					268,
+					41,
+					88,
+					31
+				],
+				"connectiontype": "rdp",
+				"capturedocrtext": "New tab"
+			}
+	],
+	"name": "Newtab/Newtab_1"
+}

@@ -1,0 +1,50 @@
+﻿---------- Using PUT command to create/declare a variable -----------------
+
+Put "Vijayalaxmi Kummari" into Username
+Log Username
+
+------- Using SET command to create/declare a variable -----------------------
+
+Set Password to "Rest@1234"
+Log Password
+
+
+----------- Creating a List using Set & Put Commands ---------------
+put ["1","2","3","4"] into myList
+repeat with each item of myList
+	log it
+end repeat
+log myList
+
+
+set List to ["Vijaya","12","Laxmi","13","Kummari","14"] 
+log List
+
+Set Numbers to 1..100
+repeat with each item of Numbers
+	log it
+end repeat
+log the second item of Numbers
+
+Set Alphabets to "A".."Z"
+
+to func1 lastName
+	put "Laxmi" into global lastName
+	log global lastName
+end func1
+
+func1
+funct2
+to funct2
+	log global lastName
+end funct2
+
+
+put "Laxmi" into global lastName
+log global lastName
+
+set the suiteVariables to {username:"Vijaya",password:"12345"}
+
+
+log username
+log password

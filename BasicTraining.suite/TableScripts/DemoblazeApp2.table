@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?><TableScript xmlns="http://www.testplant.com/xmlns/TableScript/2014">
+<Lines>
+<Line><Action
+  >Connect</Action
+><Arguments
+  >"TutorialSUT"</Arguments
+><ExpectedValueExpression
+  ></ExpectedValueExpression
+><Comment
+  ></Comment
+></Line>
+<Line><Action
+  >WaitFor</Action
+><Arguments
+  >20, text:"Contacts"</Arguments
+><ExpectedValueExpression
+  ></ExpectedValueExpression
+><Comment
+  ></Comment
+></Line>
+<Line><Action
+  >Click</Action
+><Arguments
+  >text:"History"</Arguments
+><ExpectedValueExpression
+  ></ExpectedValueExpression
+><Comment
+  ></Comment
+></Line>
+<Line><Action
+  >AdvancedScripting/AccessingLists</Action
+><Arguments
+  ></Arguments
+><ExpectedValueExpression
+  ></ExpectedValueExpression
+><Comment
+  ></Comment
+></Line>
+<Line><Action
+  >Script1</Action
+><Arguments
+  ></Arguments
+><ExpectedValueExpression
+  ></ExpectedValueExpression
+><Comment
+  ></Comment
+></Line>
+</Lines>
+</TableScript>

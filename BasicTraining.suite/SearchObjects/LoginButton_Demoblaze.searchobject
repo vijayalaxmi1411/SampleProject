@@ -1,0 +1,41 @@
+{
+	"originalcapturelocation": [
+		405,
+		340,
+		78,
+		38
+	],
+	"lastmodifieddate": 1689936297.648,
+	"createddate": 1689936297.648,
+	"name": "LoginButton_Demoblaze",
+	"lastfounddate": 1689936301.1789999,
+	"ocrcapturestring": "Log in",
+	"lastfoundlocation": [
+		1108,
+		445,
+		78,
+		38
+	],
+	"testlocationdata": [
+		{
+				"capturedocrtext": "Log in",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[39,19]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"type": 1,
+				"capturerect": [
+					405,
+					340,
+					78,
+					38
+				],
+				"name": "LoginButton_Demoblaze.png"
+			}
+	]
+}

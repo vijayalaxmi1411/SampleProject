@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		18,
+		9,
+		40,
+		44
+	],
+	"lastmodifieddate": 1689848700.8559999,
+	"createddate": 1689848700.8559999,
+	"name": "RecycleBin_Chrome",
+	"lastfounddate": 1689848808.2020001,
+	"ocrcapturestring": "□",
+	"lastfoundlocation": [
+		18,
+		9,
+		40,
+		44
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 5919,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[18,227]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "RecycleBin_Chrome.png",
+				"connectionname": "CloudSUT-8",
+				"type": 1,
+				"connectionserverid": "tcsesuts.eggplantlab.com",
+				"capturerect": [
+					18,
+					9,
+					40,
+					44
+				],
+				"connectiontype": "rdp",
+				"capturedocrtext": "□"
+			}
+	]
+}

@@ -1,0 +1,42 @@
+﻿TypeText WindowsKey, "r" -- Typetext command for windows shortcuts
+Typetext "chrome" -- To enter string on SUT
+Typetext returnKey -- Typetext command for keyword
+click imageName:"AddressBar",waitFor:10
+Typetext "demoblaze.com",return -- String with keyword
+Typetext windowsKey,upArrow  --- Maxmize the browser window
+Typetext windowsKey,downArrow
+
+(*typetext AltKey,F2
+typetext "google-chrome",return
+typetext "https://uat.devtest.vegas/en.html",return
+click text:"Close"*)
+
+--- 1.8seconds
+
+
+typetext windowsKey,r
+typetext "chrome demoblaze.com",return
+
+
+
+typetext "amazon.in",return
+
+
+Typetext "Vijaya"
+
+
+
+
+ScrollWheelDown 4
+
+
+
+
+
+
+
+
+
+
+
+

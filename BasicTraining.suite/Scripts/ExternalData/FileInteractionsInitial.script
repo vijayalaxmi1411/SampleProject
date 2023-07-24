@@ -1,0 +1,9 @@
+﻿--- To access the file within in a suite resources folder ------------
+
+put file resourcePath("TestData.txt") into Content
+log Content
+
+---- To access a file which is in centralized location ---------------
+
+put file "D:\TestDoc.txt" into FileContent
+log FileContent

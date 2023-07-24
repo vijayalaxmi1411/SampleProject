@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		703,
+		698,
+		198,
+		26
+	],
+	"lastmodifieddate": 1688626420.1900001,
+	"createddate": 1688626420.1900001,
+	"name": "Galaxy s6",
+	"lastfounddate": 1688626434.921,
+	"ocrcapturestring": "Samsung galaxy s6",
+	"lastfoundlocation": [
+		703,
+		698,
+		198,
+		26
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[94,11]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Galaxy s6.png",
+				"connectionname": "81-SUT",
+				"type": 1,
+				"connectionserverid": "192.168.1.81",
+				"capturerect": [
+					703,
+					698,
+					198,
+					26
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Samsung galaxy s6"
+			}
+	]
+}

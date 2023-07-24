@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		94,
+		400,
+		40,
+		45
+	],
+	"lastmodifieddate": 1687850365.7420001,
+	"createddate": 1687850365.7420001,
+	"name": "RecycleBinSelected",
+	"lastfounddate": 1687850365.8660002,
+	"ocrcapturestring": "□",
+	"lastfoundlocation": [
+		94,
+		400,
+		40,
+		45
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 5905,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[27,19]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "RecycleBinSelected.png",
+				"connectionname": "Partner-SUT-4",
+				"type": 1,
+				"connectionserverid": "tcsesuts.eggplantlab.com",
+				"capturerect": [
+					94,
+					400,
+					40,
+					45
+				],
+				"connectiontype": "rdp",
+				"capturedocrtext": "□"
+			}
+	]
+}

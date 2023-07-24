@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?><TableScript xmlns="http://www.testplant.com/xmlns/TableScript/2014">
+<Lines>
+<Line><Action
+  >TypeText</Action
+><Arguments
+  >windowsKey,r</Arguments
+><ExpectedValueExpression
+  ></ExpectedValueExpression
+><Comment
+  ></Comment
+></Line>
+<Line><Action
+  >TypeText</Action
+><Arguments
+  >"chrome demoblaze.com",return</Arguments
+><ExpectedValueExpression
+  ></ExpectedValueExpression
+><Comment
+  ></Comment
+></Line>
+<Line><Action
+  >ImageFound</Action
+><Arguments
+  >text:"PRODUCT STORE",waitFor:60</Arguments
+><ExpectedValueExpression
+  >[True or False]</ExpectedValueExpression
+><Comment
+  ></Comment
+></Line>
+<Line><Action
+  >Click</Action
+><Arguments
+  >text:"Samsung Galaxy S6",waitFor:20</Arguments
+><ExpectedValueExpression
+  ></ExpectedValueExpression
+><Comment
+  ></Comment
+></Line>
+<Line><Action
+  >Script1</Action
+><Arguments
+  >"ValueFromTable"</Arguments
+><ExpectedValueExpression
+  ></ExpectedValueExpression
+><Comment
+  ></Comment
+></Line>
+</Lines>
+</TableScript>

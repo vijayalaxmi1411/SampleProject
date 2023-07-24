@@ -1,0 +1,41 @@
+(*** Autosnippet script "AutoScanEntireArea_9" generated 2023-07-21 by Vijayalakshmi. Keep this comment for use with Eggplant AI. ***)
+(* Already generated snippets can be edited in the script below *)
+(* To customize the snippet generation templates, affecting snippets generated in the future,
+go to Eggplant > Preferences... > Script > General > Customize *)
+
+
+(* Autosnippets for Checkpoint "PRODUCTSTORE_LogoText" *)
+
+to handle PRODUCTSTORE_LogoText_Validate duration
+    if duration is not a number then set duration to 8
+    WaitFor duration, imageName:"PRODUCTSTORE_LogoText"
+end PRODUCTSTORE_LogoText_Validate
+
+to handle PRODUCTSTORE_LogoText_IsFound duration
+    if duration is not a number then set duration to 8
+    return imageFound(imageName:"PRODUCTSTORE_LogoText", waitFor:duration)
+end PRODUCTSTORE_LogoText_IsFound
+
+-----------------------------------
+
+
+(* Autosnippets for Button "Phones" (using OCR) *)
+
+to handle Phones_Click
+    Click Text:"Phones", waitFor:8
+end Phones_Click
+
+-----------------------------------
+
+
+(* Autosnippets for Button "Laptops" (using OCR) *)
+
+to handle Laptops_Click
+    Click Text:"Laptops", waitFor:8
+end Laptops_Click
+
+-----------------------------------
+
+
+(*** End of Autosnippet script AutoScanEntireArea_9.script ***)
+

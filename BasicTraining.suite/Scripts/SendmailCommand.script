@@ -1,0 +1,13 @@
+﻿SendMail to:"vijayalaxmi.kummari@ideabytes.com", subject:"TestMail", message:"Test message",attachment:""
+
+--- will not work if the mail MFA 
+
+
+
+DoubleClick "ChromeIcon_PartnerSUT4"
+ImageFound("RecycleBin_1")
+
+DoubleClick "EggplantSalesforceLogo"
+
+
+

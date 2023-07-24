@@ -1,0 +1,14 @@
+﻿set SetOfTests to ["Script1","AdvancedScripting/ConcatenatingValues","AdvancedScripting/AccessingLists"]
+repeat with each test of SetOfTests
+	RunWithNewResults test
+	put the result into Outcome
+	if Outcome.status ="Success"
+		put Outcome.logFile into LogFile
+		SendMail to:"vijayalaxmi.kummari@ideabytes.com", subject:"Report", message:"Please find the attached log file for"&test, attachment:LogFile
+		
+	end if
+end repeat
+
+
+
+

@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		1113,
+		149,
+		44,
+		29
+	],
+	"lastmodifieddate": 1681824352.244,
+	"createddate": 1681186663.3600001,
+	"name": "OKButton",
+	"lastfounddate": 1690192994.1240001,
+	"ocrcapturestring": "OK",
+	"lastfoundlocation": [
+		1113,
+		155,
+		44,
+		29
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 5905,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[22,14]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "OKButton/OKButton.png",
+				"connectionname": "Partner-SUT-4",
+				"type": 1,
+				"connectionserverid": "3.8.94.207",
+				"capturerect": [
+					1113,
+					149,
+					44,
+					29
+				],
+				"connectiontype": "rdp",
+				"capturedocrtext": "OK"
+			}
+	]
+}

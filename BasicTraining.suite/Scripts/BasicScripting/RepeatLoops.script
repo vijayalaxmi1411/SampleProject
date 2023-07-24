@@ -1,0 +1,40 @@
+﻿---- Repeat loop using the number of times ----------------
+
+Repeat 4 times
+	click text:"Contacts"
+	wait 1
+	click text:"Favorites"
+	wait 1
+	click text:"History"
+	wait 1
+	click text:"Downloads"
+End repeat
+
+
+-----Repeat the statements in the specified time ----------------
+
+Repeat for 10 seconds 
+	log repeatIndex()
+	Log "Executing the statements under 10 seconds"
+	wait 1
+End repeat
+
+------ Repeat the statements until some condition met-------------
+Connect "Partner-SUT-4"
+repeat until ImageFound(text:"HTC One M9", waitFor:3)
+	ScrollWheelDown 2
+	wait 2
+end repeat
+click text:"HTC One M9"
+
+
+
+if ImageFound(text:"Sony vaio i5", waitFor:0)
+	Click FoundImageLocation()
+else
+	repeat until ImageFound(text:"Sony vaio i5", waitFor:2)
+		ScrollWheelDown 4
+		wait 1
+	end repeat
+	click FoundImageLocation()
+end if

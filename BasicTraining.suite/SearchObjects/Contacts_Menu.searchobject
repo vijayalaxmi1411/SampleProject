@@ -1,0 +1,41 @@
+{
+	"originalcapturelocation": [
+		1068,
+		131,
+		64,
+		20
+	],
+	"lastmodifieddate": 1679296339.9520001,
+	"createddate": 1679296339.9520001,
+	"name": "Contacts_Menu",
+	"lastfounddate": 1684820925.076,
+	"ocrcapturestring": "Contact",
+	"lastfoundlocation": [
+		1068,
+		131,
+		64,
+		20
+	],
+	"testlocationdata": [
+		{
+				"capturedocrtext": "Contact",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[-30,12]",
+					"Tolerance": "_63",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"type": 1,
+				"capturerect": [
+					1068,
+					131,
+					64,
+					20
+				],
+				"name": "Contacts_Menu.png"
+			}
+	]
+}

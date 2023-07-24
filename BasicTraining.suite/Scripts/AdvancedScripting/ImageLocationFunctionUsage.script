@@ -1,0 +1,18 @@
+﻿click imageLocation(imageName:"ChromeIcon_171")
+
+set EggplantFunctional to imageLocation(imageName:"ChromeIcon_171")+[2,100] -- Using hotspot reference setting Variable Location on Eggplant Functional Icon
+
+DoubleClick EggplantFunctional -- Clicking on Eggplant Functional Location using EggplantFunctional variable
+
+log imageLocation(imageName:"ChromeIcon_171")
+
+
+
+moveTo imageLocation(text:"Electronics")
+
+
+click imageName:"ChromeIcon/ChromeCenter2",hotspot:[2,100] --- hotspot keyword
+
+doubleclick imagelocation(imageName:"ChromeIcon/ChromeCenter2")+[2,100]
+
+

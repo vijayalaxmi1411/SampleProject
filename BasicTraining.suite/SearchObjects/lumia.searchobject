@@ -1,0 +1,41 @@
+{
+	"originalcapturelocation": [
+		1055,
+		729,
+		59,
+		24
+	],
+	"lastmodifieddate": 1684821175.934,
+	"createddate": 1684821175.934,
+	"name": "lumia",
+	"lastfounddate": 1688455660.112,
+	"ocrcapturestring": "lumia",
+	"lastfoundlocation": [
+		1055,
+		697,
+		59,
+		24
+	],
+	"testlocationdata": [
+		{
+				"capturedocrtext": "lumia",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[29,12]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"type": 1,
+				"capturerect": [
+					1055,
+					729,
+					59,
+					24
+				],
+				"name": "lumia.png"
+			}
+	]
+}

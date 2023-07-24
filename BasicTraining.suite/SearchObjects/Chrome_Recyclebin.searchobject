@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		9,
+		108,
+		64,
+		64
+	],
+	"lastmodifieddate": 1681822179.974,
+	"createddate": 1681822179.974,
+	"name": "Chrome_Recyclebin",
+	"lastfounddate": 1689935187.3699999,
+	"ocrcapturestring": "Google",
+	"lastfoundlocation": [
+		9,
+		214,
+		64,
+		64
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 5915,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[31,-72]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Chrome_Recyclebin.png",
+				"connectionname": "Partner-SUT-6",
+				"type": 1,
+				"connectionserverid": "3.8.94.207",
+				"capturerect": [
+					9,
+					108,
+					64,
+					64
+				],
+				"connectiontype": "rdp",
+				"capturedocrtext": "Google"
+			}
+	]
+}

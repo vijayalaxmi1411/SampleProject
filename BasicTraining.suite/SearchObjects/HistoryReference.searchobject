@@ -1,0 +1,96 @@
+{
+	"lastmodifieddate": 1686827317.2379999,
+	"lastfoundlocation": [
+		89,
+		126,
+		64,
+		64
+	],
+	"originalcapturelocation": [
+		84,
+		130,
+		64,
+		64
+	],
+	"createddate": 1686827317.2379999,
+	"lastfounddate": 1686827371.201,
+	"testlocationdata": [
+		{
+				"connectionportnum": 5900,
+				"domelements": [
+					{
+							"elementName": "ContactsButton",
+							"elementType": "Button",
+							"elementScale": 1,
+							"elementLocation": "{x = 9; y = 578; width = 93; height = 62}"
+						},
+					{
+							"elementName": "FavoritesButton",
+							"elementType": "Button",
+							"elementScale": 1,
+							"elementLocation": "{x = 111; y = 578; width = 93; height = 62}"
+						},
+					{
+							"elementName": "HistoryButton",
+							"elementType": "Button",
+							"elementScale": 1,
+							"elementLocation": "{x = 222; y = 578; width = 93; height = 62}"
+						},
+					{
+							"elementName": "DownloadsButton",
+							"elementType": "Button",
+							"elementScale": 1,
+							"elementLocation": "{x = 327; y = 578; width = 93; height = 62}"
+						},
+					{
+							"elementName": "Wifi Indicator",
+							"elementType": "Checkpoint",
+							"elementScale": 1,
+							"elementLocation": "{x = 4; y = 3; width = 82; height = 22}"
+						},
+					{
+							"elementName": "Clock",
+							"elementType": "Checkpoint",
+							"elementScale": 1,
+							"elementLocation": "{x = 174; y = 4; width = 78; height = 20}"
+						},
+					{
+							"elementName": "Battery Indicator",
+							"elementType": "Checkpoint",
+							"elementScale": 1,
+							"elementLocation": "{x = 382; y = 3; width = 42; height = 24}"
+						},
+					{
+							"elementName": "Screen Text",
+							"elementType": "Checkpoint",
+							"elementScale": 1,
+							"elementLocation": "{x = 12; y = 198; width = 326; height = 60}"
+						}
+				],
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[181,469]",
+					"Tolerance": "_1",
+					"Discrepancy": "_0",
+					"SearchType": "Precise to Pixel"
+				},
+				"sutinfo": {
+					"Type": "Testplant Tutorial"
+				},
+				"name": "HistoryReference.png",
+				"connectionname": "TutorialSUT",
+				"type": 1,
+				"connectionserverid": "TutorialSUT",
+				"capturerect": [
+					84,
+					130,
+					64,
+					64
+				],
+				"connectiontype": "VNC"
+			}
+	],
+	"name": "HistoryReference"
+}

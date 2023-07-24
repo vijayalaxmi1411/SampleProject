@@ -1,0 +1,12 @@
+﻿(* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+  Script generated:  2023-07-21 15:58:09
+  From session:  TurboCapture3
+  Captured on:  2023-07-21 15:55:12
+  From server:  CloudSUT-8
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *)
+DoubleClick "ChromeIcon"
+Click (Image:"AddressBar-1/AddressBar_1", WaitFor:6)
+TypeText "demoblaze.com",Return
+Click "Nexus6_0001"
+Click (Image:"Addtocart", WaitFor:3)
+Click "OKButton-1/OkButton_1"

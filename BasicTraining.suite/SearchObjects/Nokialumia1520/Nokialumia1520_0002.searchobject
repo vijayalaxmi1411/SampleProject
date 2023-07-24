@@ -1,0 +1,41 @@
+{
+	"originalcapturelocation": [
+		987,
+		731,
+		187,
+		22
+	],
+	"lastmodifieddate": 1684820945.257,
+	"createddate": 1684820945.257,
+	"name": "Nokialumia1520/Nokialumia1520_0002",
+	"lastfounddate": 1688455659.803,
+	"ocrcapturestring": "Nokia lumia 1520",
+	"lastfoundlocation": [
+		987,
+		699,
+		187,
+		22
+	],
+	"testlocationdata": [
+		{
+				"capturedocrtext": "Nokia lumia 1520",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[94,10]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"type": 1,
+				"capturerect": [
+					987,
+					731,
+					187,
+					22
+				],
+				"name": "Nokialumia1520/Nokialumia1520_0002.png"
+			}
+	]
+}

@@ -1,0 +1,31 @@
+﻿DragAndDrop "ScrollBar","DownArrow"
+
+repeat 4 times
+	typetext PageUp
+end repeat
+
+repeat 2 times
+	typetext PageDown
+end repeat
+
+repeat 1 times
+	ScrollWheelDown 4
+	
+end repeat
+
+repeat 3 times
+	
+	click "DownArrow"
+end repeat
+
+
+repeat until imageFound(text:"Follow us",waitFor:3)
+	ScrollWheelDown 4
+	wait 2
+end repeat
+click text:"Follow us"
+click text:"Newsletter"
+
+
+
+

@@ -1,0 +1,91 @@
+﻿---- OCR Properties ---------------------
+
+--- (SearchRectangle Property) ---------------
+click {text:"Electronics",searchRectangle:[362,274,1538,338]}
+
+
+click text:"monitors",searchRectangle:[306,506,669,815]
+
+click {text:"Search",searchRectangle:[362,274,1538,338],waitFor:2}
+--- SearchRectangle Global Property -------------------
+
+set the searchRectangle to ["nopCommerceLogoTopLeft","SearchstoreBottomRight"]
+
+
+wait 4
+if ImageFound(text:"Search store", waitFor:20)
+	click FoundImageLocation()
+	typetext "Samsung",return
+end if
+
+
+set the searchRectangle to []
+click text:"Computers"
+
+
+----- More OCR Properties like caseSensitive, Contrast On, Language, etc.,-------------------------------
+
+moveTo text:"phones",searchRectangle:screen_part_handler.ScreenPart("HorizontalMiddle")
+wait 5
+moveTo text:"phones",caseSensitive:On,searchRectangle:screen_part_handler.ScreenPart("HorizontalMiddle")
+wait 4
+
+click text:"Search store"
+typetext "Samsung galaxy"
+Click {Text:"SEARCH", contrastColor:[58,163,255], contrast:"On", WaitFor:88, contrastTolerance:"45"}
+
+----------- OCR with Hotspot -------------------
+
+click text:"Search keyword",hotspot:[100,1]
+typetext "Samsung",return
+
+wait 3
+
+---- Other way ---------
+click ImageLocation(text:"Search keyword")+[100,1]
+typetext controlKey,a
+typetext "Samsung",return
+
+
+
+
+click text:"register",caseSensitive:Yes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

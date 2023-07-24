@@ -1,0 +1,97 @@
+﻿-------(using excel as database)-------(*Reading Records from given File*)//to Read a record from file where the condition matches
+
+
+to ReadSingleRecord ExcelName,SheetName,UserValue
+	set Global MyExcelDB to {file:ResourcePath(ExcelName), type:"excel",name:SheetName}
+	//set global variable to single record where username matches to given value
+	Set Global CurrentRecord to the record of Global MyExcelDB where username is UserValue
+	log Global CurrentRecord
+end ReadSingleRecord
+
+ReadSingleRecord "ExcelInteractionsFile.xlsx","Sheet1","Username1"
+
+
+
+
+//to Read multiple records from file where the condition matches
+to ReadMultipleRecords ExcelName,SheetName,FlagValue
+	set Global MyExcelDB to {file:ResourcePath(ExcelName), type:"excel",name:SheetName}
+	//set global variable to multiple records where flag matches to given value
+	Set Global CurrentRecord to the records of Global MyExcelDB where flag is FlagValue
+	log Global CurrentRecord
+end ReadMultipleRecords
+
+ReadMultipleRecords "ExcelInteractionsFile.xlsx","Sheet1","No"
+
+//to Read multiple records from file with out any condition
+to ReadMultipleRecords_withoutConditions ExcelName,SheetName
+	set Global MyExcelDB to {file:ResourcePath(ExcelName), type:"excel",name:SheetName}
+	//set global variable to multiple records where flag matches to given value
+	Set Global CurrentRecord to the records of Global MyExcelDB
+	log Global CurrentRecord
+end ReadMultipleRecords_withoutConditions
+
+ReadMultipleRecords_withoutConditions "ExcelInteractionsFile.xlsx","Sheet1"(*Writing Records to given File*)
+
+//to write a single record into file
+to WriteSingleRecord ExcelName,SheetName,Flag,Username,Password,Status
+	set Global MyExcelDB to {file:ResourcePath(ExcelName), type:"excel", writeable:yes,name:SheetName}
+	//set a variable to record values
+	set NewRecord to {Username:Username, Password:Password,Status:Status,Flag:Flag}
+	//adding variable as record to file which contains data
+	add record NewRecord to Global MyExcelDB
+end WriteSingleRecord
+
+WriteSingleRecord "ExcelInteractionsFile.xlsx","Sheet1","User11","Pwd11","Passed","Yes"(*Updating a Record in given File*)
+
+//to Updating the Existing record
+to UpdateSingleRecord ExcelName,SheetName,UserName,Address,headerRow,updateValue
+	//set UserName as list
+	set Global MyExcelDB to {file:ResourcePath(ExcelName), type:"excel", writeable:yes,name:SheetName}
+
+	repeat with each item of Global MyExcelDB
+		set Global RecordData to the record of Global myExcelDB where (headerRow) is UserName
+		log Global RecordData
+		if Global RecordData.(headerRow) =UserName
+			put Address into Global RecordData's (updateValue)
+		end if
+	end repeat
+	//set Global RecordData to the record of Global myExcelDB where username is UserName
+	//put Address into Global RecordData's Address
+	//put User into Global RecordData's Username
+	//put Password into Global RecordData's Password
+end UpdateSingleRecord
+
+
+
+UpdateSingleRecord "ExcelInteractionsFile.xlsx","Sheet1","UN4","Yes","UserrrrDemo","PWD10"(*Deleting Record in a given File*)
+UpdateSingleRecord "ExcelInteractionsFile.xlsx","Sheet1","User5","Guntur","username","address"
+UpdateSingleRecord "ExcelInteractionsFile.xlsx","Sheet1",["UN1","User2","User3","User4","User5","User6","User7","User8","User9","User10","User11"],"Warangal"
+
+to UpdateSingleRecord1 ExcelName,SheetName
+	set Global MyExcelDB to {file:ResourcePath(ExcelName), type:"excel", writeable:yes,name:SheetName,readable:yes}
+
+
+	repeat with each item of Global MyExcelDB
+		log it
+		
+	end repeat
+	//set Global RecordData to the record of Global myExcelDB where username is UserName
+	//put Address into Global RecordData's Address
+	//put User into Global RecordData's Username
+	//put Password into Global RecordData's Password
+end UpdateSingleRecord1
+
+UpdateSingleRecord1 "ExcelInteractionsFile.xlsx","Sheet1"
+
+
+//deleting records where the condition matches
+to DeleteRecords ExcelName,SheetName,FalgValue
+	set Global MyExcelDB to {file:ResourcePath(ExcelName), type:"excel", writeable:yes,name:SheetName}
+	//deleting a record where it matches with flag value
+	delete record from Global MyExcelDB where Flag is FalgValue
+end DeleteRecords
+
+DeleteRecords "ExcelInteractionsFile.xlsx","Sheet1","Test"
+
+

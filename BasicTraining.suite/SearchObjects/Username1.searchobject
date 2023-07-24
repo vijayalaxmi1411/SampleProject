@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		722,
+		211,
+		120,
+		17
+	],
+	"lastmodifieddate": 1687327282.533,
+	"createddate": 1687327282.533,
+	"name": "Username1",
+	"lastfounddate": 1689936519.2539999,
+	"ocrcapturestring": "Username:",
+	"lastfoundlocation": [
+		847,
+		636,
+		120,
+		17
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 5905,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[59,59]",
+					"Tolerance": "_62",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Username1.png",
+				"connectionname": "Partner-SUT-4",
+				"type": 1,
+				"connectionserverid": "tcsesuts.eggplantlab.com",
+				"capturerect": [
+					722,
+					211,
+					120,
+					17
+				],
+				"connectiontype": "rdp",
+				"capturedocrtext": "Username:"
+			}
+	]
+}

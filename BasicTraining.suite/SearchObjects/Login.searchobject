@@ -1,0 +1,41 @@
+{
+	"originalcapturelocation": [
+		16,
+		13,
+		56,
+		25
+	],
+	"lastmodifieddate": 1684821381.4419999,
+	"createddate": 1684821381.4419999,
+	"name": "Login",
+	"lastfounddate": 1684822444.592,
+	"ocrcapturestring": "Log in",
+	"lastfoundlocation": [
+		717,
+		152,
+		56,
+		25
+	],
+	"testlocationdata": [
+		{
+				"capturedocrtext": "Log in",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[28,12]",
+					"Tolerance": "_35",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"type": 1,
+				"capturerect": [
+					16,
+					13,
+					56,
+					25
+				],
+				"name": "Login.png"
+			}
+	]
+}

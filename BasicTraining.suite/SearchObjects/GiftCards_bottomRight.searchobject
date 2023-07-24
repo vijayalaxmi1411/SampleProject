@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		1357,
+		274,
+		90,
+		68
+	],
+	"lastmodifieddate": 1684906549.418,
+	"createddate": 1684906549.418,
+	"name": "GiftCards_bottomRight",
+	"lastfounddate": 1684906713.079,
+	"ocrcapturestring": "ft Cards",
+	"lastfoundlocation": [
+		1357,
+		274,
+		90,
+		68
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 5905,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[88,59]",
+					"Tolerance": "_50",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "GiftCards_bottomRight.png",
+				"connectionname": "Partner-SUT-4",
+				"type": 1,
+				"connectionserverid": "tcsesuts.eggplantlab.com",
+				"capturerect": [
+					1357,
+					274,
+					90,
+					68
+				],
+				"connectiontype": "rdp",
+				"capturedocrtext": "ft Cards"
+			}
+	]
+}

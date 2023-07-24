@@ -1,0 +1,40 @@
+﻿click text:"Eggplant",waitFor:2
+
+click text:"computers",caseSensitive:Yes,waitFor:1
+
+Log "Script started"
+Log "Script is still in execution"
+
+
+Log "Script paused"
+Log "Click on Continue"
+
+
+click imageName:"AddressBar"
+
+
+repeat 5 times
+	log "Executing Repeat Loop"
+	if repeatIndex() is 3
+		logError "Loop exceeded"
+		exit repeat
+	end if
+end repeat
+
+put imageLocation(imageName:"ChromeIcon") into Chrome
+put Chrome
+
+click imageName:"ChromeIcon_171",waitFor:2
+
+click text:"type here to search",waitFor:0
+
+
+put "test" into Var1
+wait 3
+pauseScript
+put "test1" into Var2
+log Var1
+log Var2
+
+
+click imageName:"ChromeIcon/ChromeIcon_81SUT"

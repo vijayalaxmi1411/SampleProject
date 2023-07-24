@@ -1,0 +1,24 @@
+﻿Put 10+10 = 20
+
+Put "a" is a letter
+
+
+put "1" is a digit
+
+put 15 is between 1 and 10
+
+
+
+assert that "String" contains "Z"
+
+
+put 45+56 into result
+log result
+put "Vijaya" into FirstName
+log FirstName
+
+put "Vijaya@123" into userName
+log userName
+
+
+

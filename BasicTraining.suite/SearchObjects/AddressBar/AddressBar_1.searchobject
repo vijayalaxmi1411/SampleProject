@@ -1,0 +1,41 @@
+{
+	"originalcapturelocation": [
+		106,
+		36,
+		219,
+		31
+	],
+	"lastmodifieddate": 1684820631.3530002,
+	"createddate": 1684820631.3530002,
+	"name": "AddressBar/AddressBar_1",
+	"lastfounddate": 1684820666.359,
+	"ocrcapturestring": "Cl i",
+	"lastfoundlocation": [
+		106,
+		36,
+		219,
+		31
+	],
+	"testlocationdata": [
+		{
+				"capturedocrtext": "Cl i",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[70,13]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"type": 1,
+				"capturerect": [
+					106,
+					36,
+					219,
+					31
+				],
+				"name": "AddressBar/AddressBar_1.png"
+			}
+	]
+}

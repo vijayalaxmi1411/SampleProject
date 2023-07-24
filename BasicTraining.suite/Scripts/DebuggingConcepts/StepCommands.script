@@ -1,0 +1,35 @@
+﻿to executingHandler1   --- This handler will use StepInto functionality
+	Log "Line 1"
+	Log "Line 2"
+	Log "Line 3"
+	Log "Line 4"
+	Log "Line 5"
+	Log "Line 6"
+	executeHandler2 -- When it starts executing this handler it will execute the line and pauses again
+end executingHandler1
+
+
+
+to executeHandler2   --- Will use StepOut Commands to see the debugging process
+	Log "Executing Handler2"
+	Log "Executing Handler2"
+	Log "Executing Handler2"
+	Log "Executing Handler2"
+	Log "Executing Handler2"
+	Log "Executing Handler2"
+	Log "Executing Handler2"
+	Log "Executing Handler2"
+end executeHandler2
+
+
+to executeHandler3
+	Log "Executing Handler3"
+	Log "Executing Handler3"
+	Log "Executing Handler3"
+	Log "Executing Handler3"
+	Log "Executing Handler3"
+	Log "Executing Handler3"
+	Log "Executing Handler3"
+	Log "Executing Handler3"
+	executingHandler1
+end executeHandler3

@@ -1,0 +1,66 @@
+﻿--- Reading the data in a range from excel sheet -------------
+to readDatafromExcel ExcelFileName,SheetName,RowNum,ColNum
+
+	set MyExcelFile to Workbook(ResourcePath(ExcelFileName))
+	set MySheet to worksheet(MyExcelFile,SheetName)
+	put MySheet.cellRange (RowNum,ColNum) into Global RowData
+	#Log Global RowData
+	
+end readDatafromExcel
+
+readDatafromExcel "ResponsiveList.xlsx","Sheet0","A2","F7"
+
+
+put item 1 of Global RowData into RandyData
+log RandyData
+put item 1 of RandyData into Name
+log Name
+--------------- Entire cell range ---------------------
+set MyExcelFile to Workbook(ResourcePath("ResponsiveList.xlsx"))
+set MySheet to worksheet(MyExcelFile,"Sheet0")
+Log MySheet's cellRange
+
+-------- Reading the data from a particular cell --------------------
+
+set MyExcelFile to Workbook(ResourcePath("ResponsiveList.xlsx"))
+set MySheet to worksheet(MyExcelFile,"Sheet0")
+Log MySheet.cell(3,4)  -- Row number 3 and column number 2   (One way of reading the particular cell)
+
+---(Another way of reading the particular cell data using cell function name)
+set MyExcelFile to Workbook(ResourcePath("TestData1.xlsx"))
+set MySheet to worksheet(MyExcelFile,"Sheet1")
+put cell("B2") of MySheet into UserName
+log Username
+
+
+----------- Write data to particular cell ---------------------------
+set MyExcelFile to Workbook(ResourcePath("ExcelInteractionsFile.xlsx"))
+set MySheet to worksheet(MyExcelFile,"Sheet1")
+put "Vijayalaxmi" into MySheet.cell(4,2)  -- Row number 3 and column number 4
+log MySheet.Cell("B4")
+
+
+------------ Update Excel data for a Particular Cell --------------------------
+set MyExcelFile to Workbook(ResourcePath("ExcelInteractionsFile.xlsx"))
+set MySheet to worksheet(MyExcelFile,"Sheet1")
+put "Updated" into MySheet.cell(3,2)
+Log MySheet.cell(3,2)
+
+
+---------- Delete Excel data from a Particular Cell ---------------------------------
+set MyExcelFile to Workbook(ResourcePath("ExcelInteractionsFile.xlsx"))
+set MySheet to worksheet(MyExcelFile,"Sheet1")
+put "" into MySheet.cell(4,2) -- Row number 4 and Column Number 2
+
+
+
+set MyExcelFile to Workbook(ResourcePath("ExcelInteractionsFile.xlsx"))
+set MySheet to worksheet(MyExcelFile,"Sheet1")
+put MySheet.cellRange ("B") into Global RowData
+(*put the index number of the item containing C in Global RowData into questionNumber
+put item questionNumber of B into reply
+log reply*)
+
+
+
+

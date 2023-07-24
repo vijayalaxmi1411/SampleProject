@@ -1,0 +1,8 @@
+﻿------- Creating a File from Eggplant Functional ------------------
+
+Put "Welcome to Eggplant. Happy Scripting" into file "D:\CreatedFromEPF.txt"
+
+log file "D:\CreatedFromEPF.txt"
+
+
+Put "Again welcome to Eggplant. Happy Scripting" into file "D:\CreatedFromEPF.txt"

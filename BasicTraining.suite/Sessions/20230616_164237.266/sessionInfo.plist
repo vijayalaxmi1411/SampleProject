@@ -1,0 +1,10 @@
+{
+    adaptiveConstant = <*I7>;
+    commandList = "[{captureRect:[132.616228, 4, 202.616228, 34], elementName:\"image0005\", eventNum:2, folderPath:\"\", hotSpot:[167.616228, 621], imageName:\"image0005\", itemEvent:\"TurboListItemEvent_Click\", itemMode:\"TurboListItemMode_New\", itemType:\"TurboListItemType_Image\", screenShotFile:\"Screen0002.png\", searchType:\"Tolerant of Background\", skipStep:False, userModified:False, usingTempImageName:True, waitForTime:-1}, {captureRect:[0, 0, 0, 0], elementName:\"UNKNOWN\", eventNum:4, folderPath:\"\", hotSpot:[250.019737, 619], imageName:\"\", itemEvent:\"TurboListItemEvent_Click\", itemMode:\"TurboListItemMode_New\", itemType:\"TurboListItemType_Image\", screenShotFile:\"Screen0004.png\", skipStep:False, userModified:False, usingTempImageName:True, waitForTime:-1}, {captureRect:[0, 0, 0, 0], elementName:\"UNKNOWN\", eventNum:6, folderPath:\"\", hotSpot:[354.89693, 629], imageName:\"\", itemEvent:\"TurboListItemEvent_Click\", itemMode:\"TurboListItemMode_New\", itemType:\"TurboListItemType_Image\", screenShotFile:\"Screen0006.png\", skipStep:False, userModified:False, usingTempImageName:True, waitForTime:-1}, {captureRect:[0, 0, 0, 0], elementName:\"UNKNOWN\", eventNum:8, folderPath:\"\", hotSpot:[21.537281, 210], imageName:\"\", itemEvent:\"TurboListItemEvent_Drag\", itemMode:\"TurboListItemMode_New\", itemType:\"TurboListItemType_Image\", screenShotFile:\"Screen0008.png\", skipStep:False, userModified:False, usingTempImageName:True, waitForTime:-1}, {captureRect:[0, 0, 0, 0], elementName:\"UNKNOWN\", eventNum:8, folderPath:\"\", hotSpot:[198.517544, 217], imageName:\"\", itemEvent:\"TurboListItemEvent_Drop\", itemMode:\"TurboListItemMode_New\", itemType:\"TurboListItemType_Image\", screenShotFile:\"Screen0008.png\", skipStep:False, userModified:False, usingTempImageName:True, waitForTime:-1}]";
+    dilations = <*I3>;
+    maxSize = <*I300>;
+    minSize = <*I16>;
+    savedWithEpfVersion = <*I202304070406>;
+    sessionType = turboSession;
+    sessionUsesDOMObjects = <*BN>;
+}

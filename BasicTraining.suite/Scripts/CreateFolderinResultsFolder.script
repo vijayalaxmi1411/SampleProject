@@ -1,0 +1,17 @@
+﻿
+
+--------- To create a custom folder in Suite >> Results Folder 
+
+put suiteInfo().resultsFolder&slash&MPCBPart&"" into RootPath  -- It creates a custom folder with the name of MPCBPart
+put RootPath&slash&"Logfile.txt" into TotalFilePath -- It creates a LogFile.txt folder inside above custom folder
+log TotalFilePath
+put "TextFile" into TotalFilePath
+log TotalFilePath
+
+
+
+
+--
+put suiteInfo().resultsFolder&slash&MPCBPart&"" into RootPath  
+put RootPath&slash into ScreenshotPath
+log ScreenshotPath

@@ -1,0 +1,12 @@
+﻿
+to handle I_open_an_application
+	typetext window
+end I_open_an_application
+
+to handle I_verify_Home_page
+	
+end I_verify_Home_page
+
+to handle I_click_on_Mobile_Product
+	
+end I_click_on_Mobile_Product

@@ -1,0 +1,51 @@
+﻿--- If and then statement -----
+if ImageFound(text:"Samsung galaxy s6", waitFor:10) then Click FoundImageLocation()
+
+if ImageFound(text:"Phones", waitFor:10) then Click text:"Nokia lumia"
+-- If Condition with multiple statements ------
+
+if ImageLocation(text:"Phones") is [450, 656]
+	Log "Phones in correct positin"
+	Click FoundImageLocation()
+end if
+
+Put "Testing" into UserName
+
+-------If chained statements -----------------
+
+If ImageFound(text:"myStore", waitFor:0)
+	Log "Mystore text found"
+else if ImageFound(text:"Laptops")
+	Log "Laptops text found"
+	click FoundImageLocation()
+else
+	Log "Neither images found"
+End If
+
+
+------ GUI Validations with conditional statements ------------------
+--- AND Condition Satisfied--------
+if ImageFound(text:"HTC One M9", waitFor:0) and if ImageFound(text:"Product description", waitFor:0)
+	LogSuccess "Both texts are found on the screen"
+	click text:"Add to cart"
+else
+	LogWarning "Either one of the text is not found"
+end if
+
+---- OR condition ------
+if ImageFound(text:"Samsung galaxy", waitFor:0) or if ImageFound(text:"Product description", waitFor:0)
+	LogSuccess "Both texts are found on the screen"
+	click text:"Add to cart"
+else
+	LogWarning "Either one of the text is not found"
+end if
+
+-------------- AND Condition Not satisified ------------------------
+if ImageFound(text:"HTC One M9", waitFor:0) and if ImageFound(text:"Samsung galaxy", waitFor:0)
+	LogSuccess "Both texts are found on the screen"
+	click text:"Add to cart"
+else
+	LogWarning "Either one of the text is not found"
+end if
+
+

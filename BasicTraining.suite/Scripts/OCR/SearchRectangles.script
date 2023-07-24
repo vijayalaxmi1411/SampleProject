@@ -1,0 +1,40 @@
+﻿---- SearchRectangle with Hard coordinates -------------
+-- By pressing controlKey,c in the SUT copy the coordinates
+
+set the searchRectangle to [315,533,668,847]
+wait 1
+log readtext(the searchRectangle)
+
+
+
+---- SearchRectangle with Images ---------------------------
+set the searchRectangle to ["Contacts_TopLeft","Contacts_BottomRight"]
+wait 1
+log readtext(the searchRectangle)
+
+set the searchRectangle to empty
+
+click text:"Favorites"
+
+click text:"Username",hotspot:[2,60]
+typetext "DemoblazeUser"
+
+
+click text:"Learn More",searchRectangle:[432,83,1484,186] -- using the searchRectangle as a local property
+
+
+set the searchRectangle to screen_part_handler.ScreenPart("TopHalf")
+wait 2
+click text:"Electronics"
+
+
+set the searchRectangle to ["Computers_TopLeft","GiftCards_bottomRight"]
+wait 5
+click text:"Digital downloads"
+
+set the searchRectangle to []
+click text:"Manufacturers"
+
+
+click text:"register"
+

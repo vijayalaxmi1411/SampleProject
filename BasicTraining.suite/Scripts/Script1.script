@@ -1,0 +1,60 @@
+﻿DoubleClick "EdgeIcon"
+params ValueofParam
+Log ValueofParam
+#Connect serverID:"TutorialSUT", portNum:5900, type:"VNC"
+
+#wait 5
+click text:"Contacts"
+wait 2
+Click text:"Favorites"
+
+
+Log "Script 1 Executed"
+
+log connectionInfo()
+
+#connect "Partner-SUT-4"
+wait 5
+#connect "Partner-SUT-3"
+
+
+#Connect serverID:"￹SUTIPOrHostname￺TP-EPF-TOKEN￻", portNum:￹portNum￺TP-EPF-TOKEN￻, password:"￹SUTPassword￺TP-EPF-TOKEN￻", type:"￹VNCorRDP￺TP-EPF-TOKEN￻"
+
+#Connect "81-SUT"
+
+
+Log "Paused"
+
+repeat 5 times
+	log "IndexNumber"&& repeatIndex()
+	if repeatIndex()>3
+		logWarning "Exceeded the limit"
+		exit repeat
+	end if
+	
+end repeat
+
+WelcomeMessage
+
+to WelcomeMessage
+	Log "Welcome"
+end WelcomeMessage
+(*
+
+
+
+#DateOperators
+
+DoubleClick "RecycleBin_Chrome"
+RightClick (Image:"FirefoxIcon", WaitFor:7.4)
+
+
+DoubleClick "ChromeIcon"
+*)
+
+
+Log "Hellloooo"
+
+Log "Wekcome to Eggplant"
+
+

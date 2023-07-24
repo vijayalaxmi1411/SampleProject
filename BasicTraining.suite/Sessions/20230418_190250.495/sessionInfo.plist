@@ -1,0 +1,10 @@
+{
+    adaptiveConstant = <*I7>;
+    commandList = "[{captureRect:[404, 858, 456, 910], elementName:\"AppLogo\", eventNum:2, folderPath:\"\", hotSpot:[427.750363, 141.241379], imageName:\"AppLogo\", itemEvent:\"TurboListItemEvent_CaptureImage\", itemMode:\"TurboListItemMode_Existing\", itemType:\"TurboListItemType_Image\", screenShotFile:\"Screen0001.png\", searchType:\"Tolerant of Background\", skipStep:False, userModified:True, usingTempImageName:False, waitForTime:-1}, {captureRect:[803.860668, 759.177931, 899.860668, 786.177931], elementName:\"Nokialu\", eventNum:3, folderPath:\"\", hotSpot:[863.860668, 252.822069], imageName:\"Nokialu\", itemEvent:\"TurboListItemEvent_CaptureImage\", itemMode:\"TurboListItemMode_Existing\", itemType:\"TurboListItemType_Image\", screenShotFile:\"Screen0001.png\", searchType:\"Smoothed for Text\", skipStep:True, userModified:False, usingTempImageName:True, waitForTime:-1}, {captureRect:[825.22061, 493.582069, 927.22061, 512.582069], elementName:\"AddtocartButton\", eventNum:4, folderPath:\"\", hotSpot:[872.22061, 525.417931], imageName:\"AddtocartButton\", itemEvent:\"TurboListItemEvent_CaptureImage\", itemMode:\"TurboListItemMode_Replace\", itemType:\"TurboListItemType_Image\", OCRText:\"Add to cart\", screenShotFile:\"Screen0001.png\", searchType:\"Smoothed for Text\", skipStep:False, userModified:True, usingTempImageName:False, waitForTime:-1}]";
+    dilations = <*I3>;
+    maxSize = <*I300>;
+    minSize = <*I16>;
+    savedWithEpfVersion = <*I2211222317>;
+    sessionType = rapidSession;
+    sessionUsesDOMObjects = <*BN>;
+}

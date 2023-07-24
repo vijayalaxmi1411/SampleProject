@@ -1,0 +1,41 @@
+{
+	"originalcapturelocation": [
+		322,
+		340,
+		75,
+		38
+	],
+	"lastmodifieddate": 1689936296.7579999,
+	"createddate": 1689936296.7579999,
+	"name": "Username_Demoblaze/CloseButton_Demoblaze",
+	"lastfounddate": 1689936300.8639998,
+	"ocrcapturestring": "Close",
+	"lastfoundlocation": [
+		1024,
+		445,
+		75,
+		38
+	],
+	"testlocationdata": [
+		{
+				"capturedocrtext": "Close",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[37,19]",
+					"Tolerance": "_62",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"type": 1,
+				"capturerect": [
+					322,
+					340,
+					75,
+					38
+				],
+				"name": "Username_Demoblaze/CloseButton_Demoblaze.png"
+			}
+	]
+}

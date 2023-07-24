@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		702,
+		213,
+		129,
+		15
+	],
+	"lastmodifieddate": 1680527081.434,
+	"createddate": 1679032744.96,
+	"name": "Username2",
+	"lastfounddate": 1689936300.832,
+	"ocrcapturestring": "Username:",
+	"lastfoundlocation": [
+		702,
+		181,
+		129,
+		15
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 5915,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[76,62]",
+					"Tolerance": "_35",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Username/Username.png",
+				"connectionname": "Partner-SUT-6",
+				"type": 1,
+				"connectionserverid": "3.8.94.207",
+				"capturerect": [
+					702,
+					213,
+					129,
+					15
+				],
+				"connectiontype": "rdp",
+				"capturedocrtext": "Username:"
+			}
+	]
+}

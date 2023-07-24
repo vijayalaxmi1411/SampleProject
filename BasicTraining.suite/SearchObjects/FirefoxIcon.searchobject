@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		11,
+		105,
+		55,
+		71
+	],
+	"lastmodifieddate": 1689848875.5939999,
+	"createddate": 1689848875.5939999,
+	"name": "FirefoxIcon",
+	"lastfounddate": 1689932874.832,
+	"ocrcapturestring": "A □ Firefox",
+	"lastfoundlocation": [
+		11,
+		105,
+		55,
+		71
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 5919,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[31,14]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "FirefoxIcon.png",
+				"connectionname": "CloudSUT-8",
+				"type": 1,
+				"connectionserverid": "tcsesuts.eggplantlab.com",
+				"capturerect": [
+					11,
+					105,
+					55,
+					71
+				],
+				"connectiontype": "rdp",
+				"capturedocrtext": "A □ Firefox"
+			}
+	]
+}

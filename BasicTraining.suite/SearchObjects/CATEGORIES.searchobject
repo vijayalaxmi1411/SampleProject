@@ -1,0 +1,41 @@
+{
+	"originalcapturelocation": [
+		415,
+		586,
+		155,
+		23
+	],
+	"lastmodifieddate": 1684820943.7519999,
+	"createddate": 1684820943.7519999,
+	"name": "CATEGORIES",
+	"lastfounddate": 1688455763.5149999,
+	"ocrcapturestring": "CATEGORIES",
+	"lastfoundlocation": [
+		415,
+		554,
+		155,
+		23
+	],
+	"testlocationdata": [
+		{
+				"capturedocrtext": "CATEGORIES",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[78,12]",
+					"Tolerance": "_70",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"type": 1,
+				"capturerect": [
+					415,
+					586,
+					155,
+					23
+				],
+				"name": "CATEGORIES.png"
+			}
+	]
+}

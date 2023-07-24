@@ -1,0 +1,28 @@
+﻿(* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+  Script generated:  2023-06-16 16:46:32
+  From session:  Demoblaze
+  Captured on:  2023-06-16 16:43:45
+  From server:  Partner-SUT-3
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *)
+
+Click "ChromeIcon/chromeIcon_2"
+TypeText "demoblaze.com",Return
+Click (Text:"Samsung galaxy s6", WaitFor:4)
+Click "AddtoCartButton"
+Click "OKButton"
+
+
+DoubleClick "ChromeIcon/ChromeIcon_PSUT_4"
+
+
+set the searchRectangle to screen_part_handler.Screenpart("BottomRightQuadrant")
+wait 4
+
+
+
+
+click "ContactsIcon"
+
+log RemoteScreenSize()
+
+

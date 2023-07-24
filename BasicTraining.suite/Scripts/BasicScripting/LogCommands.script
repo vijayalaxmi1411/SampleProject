@@ -1,0 +1,57 @@
+﻿------ To print neutral messages in the console -----------
+
+Log "Printing Simple Message in the Console"  -- blue color
+
+wait 2
+------ To print success messages in the console ----------
+
+LogSuccess "Message displayed successfully in the console" -- green color
+
+wait 2
+----- To Print warning messages in the console -------------
+
+LogWarning "It is warning it does not fail the script" -- orange color
+
+wait 2
+----- To fail the script and print error messages in the console --------
+
+if ImageFound(text:"Samsung galaxy s6",waitFor:0)
+	Log "Product found"
+else
+	LogError "Product not found"
+end if
+
+
+
+
+
+if ImageFound("Phones_Link")
+	LogSuccess "Image is not found on the screen"
+else
+	Logerror "Not found"
+end if
+
+
+Log "Step 1  - Launch Chrome"
+--
+---
+
+--
+Log "Step 1 - Completed Launching Chrome"
+
+
+click text:"Me"
+waitFor 10,text:""
+repeat until ImageFound(text:"Mock Identity", waitFor:3)
+	SwipeUp
+end repeat
+click text:"Mock Identity",hotspot:[100,2]
+
+
+
+
+
+
+
+
+end repeat

@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		27,
+		114,
+		19,
+		32
+	],
+	"lastmodifieddate": 1687849786.2309999,
+	"createddate": 1687849786.2309999,
+	"name": "ChromeIcon_PartnerSUT4",
+	"lastfounddate": 1689935187.375,
+	"ocrcapturestring": "c",
+	"lastfoundlocation": [
+		27,
+		220,
+		19,
+		32
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 5905,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[9,16]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "ChromeIcon_PartnerSUT4.png",
+				"connectionname": "Partner-SUT-4",
+				"type": 1,
+				"connectionserverid": "tcsesuts.eggplantlab.com",
+				"capturerect": [
+					27,
+					114,
+					19,
+					32
+				],
+				"connectiontype": "rdp",
+				"capturedocrtext": "c"
+			}
+	]
+}

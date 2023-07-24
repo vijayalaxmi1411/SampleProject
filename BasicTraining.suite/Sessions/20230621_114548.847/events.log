@@ -1,0 +1,63 @@
+1	0.053	start	
+2	5.28	mouseDown	{button:1, clickCount:1, hotSpot:[39.834025, 119.378238]}
+3	5.632	mouseUp	{button:1, clickCount:1, hotSpot:[39.834025, 119.378238]}
+4	5.643	mouseDown	{button:1, clickCount:2, hotSpot:[39.834025, 119.378238]}
+5	5.653	mouseUp	{button:1, clickCount:2, hotSpot:[39.834025, 119.378238]}
+6	5.664	mouseDown	{button:1, clickCount:3, hotSpot:[39.834025, 119.378238]}
+7	5.683	mouseUp	{button:1, clickCount:3, hotSpot:[39.834025, 119.378238]}
+8	12.777	keyDown	{modifiers:0, string:"d", theKey:"d"}
+9	12.992	keyDown	{modifiers:0, string:"e", theKey:"e"}
+10	13.013	keyUp	{modifiers:0, string:"d", theKey:"d"}
+11	13.03	keyUp	{modifiers:0, string:"e", theKey:"e"}
+12	13.75	mouseDown	{button:1, clickCount:1, hotSpot:[199.170124, 47.751295]}
+13	14.048	mouseUp	{button:1, clickCount:1, hotSpot:[199.170124, 47.751295]}
+14	15.221	mouseDown	{button:1, clickCount:1, hotSpot:[199.170124, 47.751295]}
+15	15.36	mouseUp	{button:1, clickCount:1, hotSpot:[199.170124, 47.751295]}
+16	15.377	mouseDown	{button:1, clickCount:2, hotSpot:[199.170124, 47.751295]}
+17	15.625	mouseUp	{button:1, clickCount:0, hotSpot:[199.170124, 47.751295]}
+18	15.786	mouseDown	{button:1, clickCount:3, hotSpot:[199.170124, 47.751295]}
+19	15.807	mouseUp	{button:1, clickCount:0, hotSpot:[199.170124, 47.751295]}
+20	16.19	keyDown	{modifiers:0, string:"d", theKey:"d"}
+21	16.277	keyDown	{modifiers:0, string:"e", theKey:"e"}
+22	16.373	keyUp	{modifiers:0, string:"d", theKey:"d"}
+23	16.458	keyUp	{modifiers:0, string:"e", theKey:"e"}
+24	18.24	keyDown	{modifiers:262144, string:@"\u0001", theKey:"a"}
+25	18.423	flagsChanged	0
+26	18.442	keyUp	{modifiers:0, string:"a", theKey:"a"}
+27	19.562	keyDown	{modifiers:0, string:"d", theKey:"d"}
+28	19.573	keyDown	{modifiers:0, string:"e", theKey:"e"}
+29	19.669	keyUp	{modifiers:0, string:"d", theKey:"d"}
+30	19.754	keyUp	{modifiers:0, string:"e", theKey:"e"}
+31	19.765	keyDown	{modifiers:0, string:"m", theKey:"m"}
+32	19.872	keyDown	{modifiers:0, string:"o", theKey:"o"}
+33	19.893	keyUp	{modifiers:0, string:"m", theKey:"m"}
+34	19.904	keyUp	{modifiers:0, string:"o", theKey:"o"}
+35	20.649	keyDown	{modifiers:0, string:"b", theKey:"b"}
+36	20.736	keyUp	{modifiers:0, string:"b", theKey:"b"}
+37	20.885	keyDown	{modifiers:0, string:"l", theKey:"l"}
+38	21.109	keyUp	{modifiers:0, string:"l", theKey:"l"}
+39	21.131	keyDown	{modifiers:0, string:"a", theKey:"a"}
+40	21.141	keyUp	{modifiers:0, string:"a", theKey:"a"}
+41	21.269	keyDown	{modifiers:0, string:"z", theKey:"z"}
+42	21.472	keyUp	{modifiers:0, string:"z", theKey:"z"}
+43	21.482	keyDown	{modifiers:0, string:"e", theKey:"e"}
+44	21.588	keyUp	{modifiers:0, string:"e", theKey:"e"}
+45	21.706	keyDown	{modifiers:0, string:".", theKey:"."}
+46	21.792	keyUp	{modifiers:0, string:".", theKey:"."}
+47	21.808	keyDown	{modifiers:0, string:"c", theKey:"c"}
+48	22.005	keyUp	{modifiers:0, string:"c", theKey:"c"}
+49	22.315	keyDown	{modifiers:0, string:"o", theKey:"o"}
+50	22.4	keyUp	{modifiers:0, string:"o", theKey:"o"}
+51	22.559	keyDown	{modifiers:0, string:"m", theKey:"m"}
+52	22.571	keyUp	{modifiers:0, string:"m", theKey:"m"}
+53	23.497	keyDown	{modifiers:0, string:@"\r", theKey:@"\r"}
+54	23.574	keyUp	{modifiers:0, string:@"\r", theKey:@"\r"}
+55	28.64	mouseDown	{button:1, clickCount:1, hotSpot:[1051.618257, 740.145078]}
+56	28.821	mouseUp	{button:1, clickCount:1, hotSpot:[1051.618257, 740.145078]}
+57	34.763	mouseDown	{button:1, clickCount:1, hotSpot:[868.381743, 527.917098], waitFor:3}
+58	34.954	mouseUp	{button:1, clickCount:1, hotSpot:[868.381743, 527.917098]}
+59	37.6	mouseDown	{button:1, clickCount:1, hotSpot:[1139.253112, 167.129534]}
+60	37.813	mouseUp	{button:1, clickCount:1, hotSpot:[1139.253112, 167.129534]}
+61	40.127	mouseDown	{button:1, clickCount:1, hotSpot:[1901.410788, 15.917098]}
+62	40.309	mouseUp	{button:1, clickCount:1, hotSpot:[1901.410788, 15.917098]}
+63	45.482	end	

@@ -1,0 +1,34 @@
+{
+	"lastmodifieddate": 1689935292.3509998,
+	"ocrcapturestring": "Add to cart",
+	"originalcapturelocation": [
+		825,
+		480,
+		102,
+		19
+	],
+	"createddate": 1689935292.3509998,
+	"testlocationdata": [
+		{
+				"capturedocrtext": "Add to cart",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Tolerance": "_47",
+					"HotSpot": "[40,15]",
+					"Scale": "    1",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"type": 1,
+				"capturerect": [
+					825,
+					480,
+					102,
+					19
+				],
+				"name": "Addtocart.png"
+			}
+	],
+	"name": "Addtocart"
+}

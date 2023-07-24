@@ -1,0 +1,46 @@
+{
+	"lastmodifieddate": 1687850485.4910002,
+	"lastfoundlocation": [
+		13,
+		210,
+		50,
+		50
+	],
+	"originalcapturelocation": [
+		13,
+		104,
+		50,
+		50
+	],
+	"createddate": 1687850485.4910002,
+	"lastfounddate": 1689935187.4130001,
+	"testlocationdata": [
+		{
+				"connectionportnum": 5905,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[26,126]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "EggplantSalesforceLogo.png",
+				"connectionname": "Partner-SUT-4",
+				"type": 1,
+				"capturerect": [
+					13,
+					104,
+					50,
+					50
+				],
+				"connectiontype": "rdp",
+				"connectionserverid": "tcsesuts.eggplantlab.com"
+			}
+	],
+	"name": "EggplantSalesforceLogo"
+}

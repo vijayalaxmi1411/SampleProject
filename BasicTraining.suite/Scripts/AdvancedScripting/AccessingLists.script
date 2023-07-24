@@ -1,0 +1,33 @@
+﻿----------- Adding the values to List using Insert Keyword ---------------
+put ["1","2","3","4"] into myList
+log myList
+insert "5" after myList
+log myList
+#insert "5" after last item of myList --- It will insert the value at the end of the list
+#insert "5" after last item of myList ----It will insert the value inbetween the list 
+insert "2.5" after item 2 of myList
+log myList
+
+
+
+
+------- Accessing the Values from List -------------------------
+set List to ["Vijaya","12","Laxmi","13","Kummari","14"] 
+--- To access the list items we can use item 1, item 2 like this -------
+repeat with each item of List
+	log it
+end repeat
+put item 3 of List into Name
+log Name
+
+
+
+----- Couting the items inside a list using the number of items command------------------
+set List to ["Vijaya","12","Laxmi","13","Kummari","14"] 
+log the number of items of List 
+put the number of items of List into Count
+log Count
+repeat Count times
+	log item repeatIndex() of List
+end repeat
+

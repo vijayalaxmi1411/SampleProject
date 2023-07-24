@@ -1,0 +1,97 @@
+{
+	"originalcapturelocation": [
+		277,
+		189,
+		59,
+		92
+	],
+	"lastmodifieddate": 1680172361.698,
+	"createddate": 1680172361.698,
+	"name": "Contacts_BottomRight2",
+	"lastfounddate": 1687413375.947,
+	"ocrcapturestring": "j can",
+	"lastfoundlocation": [
+		277,
+		189,
+		59,
+		92
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 5900,
+				"domelements": [
+					{
+							"elementName": "ContactsButton",
+							"elementType": "Button",
+							"elementScale": 1,
+							"elementLocation": "{x = 9; y = 578; width = 93; height = 62}"
+						},
+					{
+							"elementName": "FavoritesButton",
+							"elementType": "Button",
+							"elementScale": 1,
+							"elementLocation": "{x = 111; y = 578; width = 93; height = 62}"
+						},
+					{
+							"elementName": "HistoryButton",
+							"elementType": "Button",
+							"elementScale": 1,
+							"elementLocation": "{x = 222; y = 578; width = 93; height = 62}"
+						},
+					{
+							"elementName": "DownloadsButton",
+							"elementType": "Button",
+							"elementScale": 1,
+							"elementLocation": "{x = 327; y = 578; width = 93; height = 62}"
+						},
+					{
+							"elementName": "Wifi Indicator",
+							"elementType": "Checkpoint",
+							"elementScale": 1,
+							"elementLocation": "{x = 4; y = 3; width = 82; height = 22}"
+						},
+					{
+							"elementName": "Clock",
+							"elementType": "Checkpoint",
+							"elementScale": 1,
+							"elementLocation": "{x = 174; y = 4; width = 78; height = 20}"
+						},
+					{
+							"elementName": "Battery Indicator",
+							"elementType": "Checkpoint",
+							"elementScale": 1,
+							"elementLocation": "{x = 382; y = 3; width = 42; height = 24}"
+						},
+					{
+							"elementName": "Screen Text",
+							"elementType": "Checkpoint",
+							"elementScale": 1,
+							"elementLocation": "{x = 12; y = 198; width = 326; height = 60}"
+						}
+				],
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[58,74]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"Type": "Testplant Tutorial"
+				},
+				"name": "Contacts_BottomRight.png",
+				"connectionname": "Tutorial Connection",
+				"type": 1,
+				"connectionserverid": "TutorialSUT",
+				"capturerect": [
+					277,
+					189,
+					59,
+					92
+				],
+				"capturedocrtext": "j can"
+			}
+	]
+}

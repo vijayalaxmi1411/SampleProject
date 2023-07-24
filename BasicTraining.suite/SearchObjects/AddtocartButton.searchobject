@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		825,
+		512,
+		102,
+		19
+	],
+	"lastmodifieddate": 1681186945.1160002,
+	"createddate": 1681186928.681,
+	"name": "AddtocartButton",
+	"lastfounddate": 1689935259.5190001,
+	"ocrcapturestring": "Add to cart",
+	"lastfoundlocation": [
+		825,
+		480,
+		102,
+		19
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 5905,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[11,12]",
+					"Tolerance": "_47",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "AddtocartButton/AddtocartButton.png",
+				"connectionname": "Partner-SUT-4",
+				"type": 1,
+				"connectionserverid": "3.8.94.207",
+				"capturerect": [
+					825,
+					512,
+					102,
+					19
+				],
+				"connectiontype": "rdp",
+				"capturedocrtext": "Add to cart"
+			}
+	]
+}

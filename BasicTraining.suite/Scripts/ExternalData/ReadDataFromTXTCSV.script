@@ -1,0 +1,84 @@
+﻿---- To read the data from .txt file within in suite line by line ----------------
+put file resourcePath("TestData.txt") into Content
+repeat with each line of Content
+	wait 1
+	log it
+end repeat
+
+
+---- To read the data from .txt file outside the suite/ centralized location -----------------
+
+put file "D:\TestDoc.txt" into FileContent
+
+repeat with each line of FileContent
+	log it
+end repeat
+
+
+
+
+--- To read data from .csv file within the suite line by line ------------------
+
+put file ResourcePath("addresses.csv") into FileData
+
+repeat with each line of FileData
+	put it into eachLine
+	repeat with each item of eachLine
+		log it
+	end repeat
+end repeat
+
+
+--- To read the data from .csv file outside the suite/ from centralized location -------------------
+
+put file "C:\Users\admin\Downloads\taxables.csv" into FileContent
+
+repeat with each line of FileContent
+	log it
+end repeat
+
+
+
+
+---- Setting itemdelimiter to other then default delimiter -----------------
+
+put file resourcePath("TestData.txt") into Content
+log the number of items of Content
+#set the itemDelimiter to "#"  --- In the .txt file item separator is "#"
+log the number of items of second line of Content
+Log "========================"
+log the first item of second line of Content
+log the second item of second line of Content
+Log "**********************************"
+repeat with each line of Content
+	log it
+end repeat
+
+
+
+
+put file resourcePath("TestData.txt") into TestData -- Storing the content of the text file which is located within the suite into TestData Variable
+#log TestData
+set the itemDelimiter to "#"
+put the first line of TestData into Headers
+#log Headers
+log the first item of Headers
+log the second item of Headers
+
+log the number of items of Headers
+repeat with each line of second line of TestData
+	log it
+end repeat
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		417,
+		646,
+		69,
+		21
+	],
+	"lastmodifieddate": 1684903573.451,
+	"createddate": 1684903573.451,
+	"name": "Phones_Link2",
+	"lastfounddate": 1689935916.267,
+	"ocrcapturestring": "Phones",
+	"lastfoundlocation": [
+		417,
+		614,
+		69,
+		21
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 5905,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[30,10]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Phones_Link2.png",
+				"connectionname": "Partner-SUT-4",
+				"type": 1,
+				"connectionserverid": "tcsesuts.eggplantlab.com",
+				"capturerect": [
+					417,
+					646,
+					69,
+					21
+				],
+				"connectiontype": "rdp",
+				"capturedocrtext": "Phones"
+			}
+	]
+}

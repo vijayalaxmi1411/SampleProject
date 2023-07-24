@@ -1,0 +1,13 @@
+﻿
+to handle I_open_an_application
+	
+end I_open_an_application
+
+to handle I_navigate_to_Computer_Products
+	
+end I_navigate_to_Computer_Products
+
+to handle I_click_on_STR
+	params str1
+	click text:str1
+end I_click_on_STR

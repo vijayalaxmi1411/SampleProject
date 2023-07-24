@@ -1,0 +1,41 @@
+{
+	"originalcapturelocation": [
+		769,
+		679,
+		64,
+		64
+	],
+	"lastmodifieddate": 1688455846.0219998,
+	"createddate": 1688455846.0219998,
+	"name": "nggal",
+	"lastfounddate": 1688626431.7639999,
+	"ocrcapturestring": "ng gal",
+	"lastfoundlocation": [
+		769,
+		679,
+		64,
+		64
+	],
+	"testlocationdata": [
+		{
+				"capturedocrtext": "ng gal",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[32,32]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"type": 1,
+				"capturerect": [
+					769,
+					679,
+					64,
+					64
+				],
+				"name": "nggal.png"
+			}
+	]
+}

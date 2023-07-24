@@ -1,0 +1,41 @@
+{
+	"originalcapturelocation": [
+		465,
+		20,
+		17,
+		16
+	],
+	"lastmodifieddate": 1681825270.543,
+	"createddate": 1681825270.543,
+	"name": "CancelIcon",
+	"lastfounddate": 1689936300.9119999,
+	"ocrcapturestring": "X",
+	"lastfoundlocation": [
+		1171,
+		123,
+		17,
+		16
+	],
+	"testlocationdata": [
+		{
+				"capturedocrtext": "X",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[8,8]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"type": 1,
+				"capturerect": [
+					465,
+					20,
+					17,
+					16
+				],
+				"name": "CancelIcon.png"
+			}
+	]
+}

@@ -1,0 +1,56 @@
+﻿to launchApp
+	#params browserType,URL
+	typetext windowsKey,r
+	typetext "chrome demoblaze.com",return
+end launchApp
+
+to verifyHomepage
+	wait 1
+	if ImageFound(text:"PRODUCT STORE", waitFor:20)
+		LogSuccess "Demoblaze application launched successfully"
+	end if
+end verifyHomepage
+
+to verifyProduct
+	WaitFor 50, text:"Samsung Galaxy S6"
+	
+end verifyProduct
+
+to clickProduct
+	click text:"Samsung Galaxy S6"
+	wait 3
+end clickProduct
+
+
+to addProduct
+	click text:"Add to cart",waitFor:50
+end addProduct
+
+to clickOKButton
+	click imageName:"OKButton",waitFor:10
+end clickOKButton
+
+
+to closeBrowser
+	typetext altKey,F4
+end closeBrowser
+
+put everyImageLocation(text:"e") into Eletter
+log the number of items of Eletter
+
+Doubleclick item 2 of EveryImageLocation(text:"e") 
+
+
+Click "ContactsIcon"
+
+
+swipe
+
+<<Modularization/MyFunctions>>.greetTheUser
+
+
+to launchBrowserPartnerSUT
+	typetext altKey,F2
+	typetext "google-chrome",return
+	typetext "demo.nopcommerce.com",return
+end launchBrowserPartnerSUT

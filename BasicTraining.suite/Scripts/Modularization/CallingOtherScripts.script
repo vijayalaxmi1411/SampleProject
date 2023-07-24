@@ -1,0 +1,40 @@
+﻿Script1  --- Calling other script within a suite 
+Run "Script1"
+--- Calling other scripts without the parameters
+-- Without run command as run is optional
+(*
+Run "BasicScripting/TypetextCommands"
+---- Calling the scripts with parameters
+
+Run "Modularization/SimpleScriptwithParameters" "12","13"   --- Calling the script as a command
+log the result
+
+Run  "Modularization/SimpleScriptwithParameters"[12,13]*) ---- Calling the script as a function
+
+
+
+Script1 "ParameterValue","valu2","val3","val4"-- as a command
+script1 "value1"
+log the result
+
+log Script1("SuccessMessageValue") -- as a function
+
+put Script1("Function parameter") into Result
+log Result
+
+
+
+Run "Modularization/MyFunctions".addNums 15,10
+
+Script1
+
+
+to user1 param1
+	Log param1
+end user1
+
+
+user1 "Message"
+log the result 
+
+

@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		700,
+		699,
+		198,
+		26
+	],
+	"lastmodifieddate": 1688455174.7350001,
+	"createddate": 1688455086.767,
+	"name": "SelectedSamsung",
+	"lastfounddate": 1688455226.618,
+	"ocrcapturestring": "[Samsung galaxy",
+	"lastfoundlocation": [
+		700,
+		699,
+		198,
+		26
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[99,13]",
+					"Tolerance": "_59",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "SelectedSamsung/SelectedSamsung.png",
+				"connectionname": "81-SUT",
+				"type": 1,
+				"connectionserverid": "192.168.1.81",
+				"capturerect": [
+					700,
+					699,
+					198,
+					26
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "[Samsung galaxy"
+			}
+	]
+}

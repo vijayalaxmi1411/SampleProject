@@ -1,0 +1,52 @@
+﻿put ImageRectangle(text:"Apple iCam") into Var
+log X of Var
+log top of Var
+(*log left of Var
+log topLeft of Var
+log bottomRight of Var
+log center of Var*)
+set the SearchRectangle to [[Var.left,Var.top+65],[Var.Right,Var.bottom+80]]
+wait 4
+put ReadText(the SearchRectangle) into Price
+log Price
+
+
+set ScreenRectangle to RemoteScreenSize()
+
+
+log RemoteScreenSize()
+
+SetOption SearchRectangle,[]
+(*
+log ImageRectangle("ChromeIcon_171")
+
+put RemoteScreenSize() into ScreenSize
+log ScreenSize*)
+
+
+
+click item 2 of EveryImageLocation("Checkbox")
+
+
+repeat with each item of EveryImageLocation("Checkbox")
+	click it
+end repeat
+
+
+set the searchRectangle to screen_part_handler.ScreenPart("HalfOfLeftHalf")
+wait 6
+click text:"Camera & Photo",textDifference:1
+
+
+put ImageRectangle("ChromeIcon/ChromeCenter2")
+
+set the searchRectangle to screen_part_handler.ScreenPart("RightHalf")
+DoubleClick text:"Customer"
+
+
+set the searchRectangle to ["TopLeft","BottomRight"]
+
+setOption searchRectangle,[]
+
+put ImageRectangle("ContactsIcon")
+

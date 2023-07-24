@@ -1,0 +1,41 @@
+{
+	"originalcapturelocation": [
+		324,
+		338,
+		75,
+		38
+	],
+	"lastmodifieddate": 1684821383.6240001,
+	"createddate": 1684821383.6240001,
+	"name": "Close",
+	"lastfounddate": 1689936300.9759998,
+	"ocrcapturestring": "Close",
+	"lastfoundlocation": [
+		1024,
+		445,
+		75,
+		38
+	],
+	"testlocationdata": [
+		{
+				"capturedocrtext": "Close",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[37,19]",
+					"Tolerance": "_62",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"type": 1,
+				"capturerect": [
+					324,
+					338,
+					75,
+					38
+				],
+				"name": "Close.png"
+			}
+	]
+}

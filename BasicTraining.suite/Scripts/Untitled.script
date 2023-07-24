@@ -1,0 +1,26 @@
+﻿
+to handle I_launch_an_ecommerce_application
+	typetext windowsKey,r
+	typetext "chrome demoblaze.com",return
+	waitFor 30,text:"PRODUCT STORE"
+end I_launch_an_ecommerce_application
+
+
+
+to handle I_search_for_a_product
+	WaitFor 20, text:"Samsung galaxy"
+	
+end I_search_for_a_product
+
+
+
+to handle Product_information_is_displayed
+	click text:"Samsung galaxy"
+	waitFor 10,text:"Add to cart"
+end Product_information_is_displayed
+
+
+
+to handle I_buy_a_product_from_app
+	click text:"Add to cart"
+end I_buy_a_product_from_app

@@ -1,0 +1,46 @@
+{
+	"lastmodifieddate": 1686913302.227,
+	"lastfoundlocation": [
+		68,
+		313,
+		48,
+		45
+	],
+	"originalcapturelocation": [
+		68,
+		313,
+		48,
+		45
+	],
+	"createddate": 1686913273.747,
+	"lastfounddate": 1686913314.75,
+	"testlocationdata": [
+		{
+				"connectionportnum": 5911,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[24,22]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Chrome_Circle/Chrome_Circle.png",
+				"connectionname": "Partner-SUT-3",
+				"type": 1,
+				"capturerect": [
+					68,
+					313,
+					48,
+					45
+				],
+				"connectiontype": "rdp",
+				"connectionserverid": "tcsesuts.eggplantlab.com"
+			}
+	],
+	"name": "Chrome_Circle"
+}

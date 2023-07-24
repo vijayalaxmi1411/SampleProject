@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		713,
+		173,
+		109,
+		31
+	],
+	"lastmodifieddate": 1688454704.7509999,
+	"createddate": 1688454704.7509999,
+	"name": "ChromeIcon/Username_Dblaze",
+	"lastfounddate": 1689936299.4559999,
+	"ocrcapturestring": "Username:",
+	"lastfoundlocation": [
+		704,
+		173,
+		109,
+		31
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[68,69]",
+					"Tolerance": "_62",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "ChromeIcon/Username_Dblaze.png",
+				"connectionname": "81-SUT",
+				"type": 1,
+				"connectionserverid": "192.168.1.81",
+				"capturerect": [
+					713,
+					173,
+					109,
+					31
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Username:"
+			}
+	]
+}

@@ -1,0 +1,10 @@
+{
+    adaptiveConstant = <*I7>;
+    commandList = "[{captureRect:[73, 266, 115, 282], elementName:\"Email\", elementType:\"Field\", eventNum:-1, folderPath:\"\", hotSpot:[187, 122], imageName:\"Email\", itemEvent:\"TurboListItemEvent_Element\", itemMode:\"TurboListItemMode_Existing\", itemType:\"TurboListItemType_Image\", OCRText:\"Email:\", screenShotFile:\"Screen0002.png\", searchType:\"Smoothed for Text\", skipStep:False, userModified:True, usingTempImageName:False, waitForTime:-1}, {captureRect:[46, 211, 115, 227], elementName:\"PasswordNopcommerce\", elementType:\"Field\", eventNum:-1, folderPath:\"\", hotSpot:[181, 176], imageName:\"PasswordNopcommerce\", itemEvent:\"TurboListItemEvent_Element\", itemMode:\"TurboListItemMode_Existing\", itemType:\"TurboListItemType_Image\", OCRText:\"Password:\", screenShotFile:\"Screen0002.png\", searchType:\"Smoothed for Text\", skipStep:False, userModified:True, usingTempImageName:False, waitForTime:-1}, {captureRect:[227, 58, 367, 95], elementName:\"LOGIN\", elementType:\"Button\", eventNum:-1, folderPath:\"\", imageName:\"LOGIN\", itemEvent:\"TurboListItemEvent_Element\", itemMode:\"TurboListItemMode_Replace\", itemType:\"TurboListItemType_Image\", OCRText:\"LOG IN\", screenShotFile:\"Screen0002.png\", searchType:\"Smoothed for Text\", skipStep:False, userModified:False, usingTempImageName:False, waitForTime:-1}]";
+    dilations = <*I3>;
+    maxSize = <*I300>;
+    minSize = <*I16>;
+    savedWithEpfVersion = <*I202304070406>;
+    sessionType = autoscanSession;
+    sessionUsesDOMObjects = <*BN>;
+}

@@ -1,0 +1,41 @@
+{
+	"originalcapturelocation": [
+		1241,
+		636,
+		161,
+		215
+	],
+	"lastmodifieddate": 1684821177.576,
+	"createddate": 1684821177.576,
+	"name": "Nexus7",
+	"lastfounddate": 1688455667.411,
+	"ocrcapturestring": "Nexus 6 $650 The Motorola Googl powered by 2.7GHz",
+	"lastfoundlocation": [
+		1241,
+		604,
+		161,
+		215
+	],
+	"testlocationdata": [
+		{
+				"capturedocrtext": "Nexus 6 $650 The Motorola Googl powered by 2.7GHz",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[80,107]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"type": 1,
+				"capturerect": [
+					1241,
+					636,
+					161,
+					215
+				],
+				"name": "Nexus6.png"
+			}
+	]
+}

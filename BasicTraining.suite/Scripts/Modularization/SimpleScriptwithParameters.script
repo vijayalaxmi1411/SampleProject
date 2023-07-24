@@ -1,0 +1,6 @@
+﻿-- declaring parameters using params keyword
+params Num1,Num2,Num3
+put Num1+Num2 into Num3
+return Num3  --- Returning Single Values
+
+

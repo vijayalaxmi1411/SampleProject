@@ -1,0 +1,13 @@
+﻿(* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+  Script generated:  2023-07-04 12:54:53
+  From session:  TurboCaptureSession3
+  Captured on:  2023-07-04 12:52:09
+  From server:  81-SUT
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *)
+
+DoubleClick "ChromeIcon/ChromeIcon_1"
+TypeText "demoblaze.com",Return
+Click Text:"Nexus 6"
+Click Text:"Add to cart"
+Click "OkButton"
+Click "CloseBrowserIcon"

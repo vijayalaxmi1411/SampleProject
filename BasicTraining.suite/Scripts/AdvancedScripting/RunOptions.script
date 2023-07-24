@@ -1,0 +1,40 @@
+﻿
+set the mouseClickDelay to 5.0
+
+click text:"Information"
+click text:"Follow us"
+click text:"Computers"
+click text:"Electronics"
+
+set the nextKeyDelay to 0.01
+typetext windowsKey,r
+typetext "chrome demoblaze.com",return
+#click text:"Search store"
+typetext "Apple icam"
+
+
+set the remoteWorkInterval to 5
+click text:"Search store"
+
+typetext "Apple icam"
+
+
+
+
+set the mouseClickDelay to 3
+click text:"Computers"
+click text:"Electronics"
+
+
+set the nextKeyDelay to 3
+typetext windowsKey,r
+typetext "chrome demoblaze.com",return
+
+set the nextKeyDelay to 0.01
+
+
+set the remoteWorkInterval to 3
+typetext windowsKey,r
+typetext "chrome demoblaze.com",return
+WaitFor 50, text:"PRODUCT STORE"
+click text:"Samsung galaxy s6"

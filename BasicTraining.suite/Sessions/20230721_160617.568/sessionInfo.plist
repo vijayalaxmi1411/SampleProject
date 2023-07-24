@@ -1,0 +1,10 @@
+{
+    adaptiveConstant = <*I7>;
+    commandList = "[{captureRect:[0, 1163, 16, 1200], elementName:\"image0006\", eventNum:-1, folderPath:\"\", imageName:\"image0006\", itemEvent:\"TurboListItemEvent_CaptureImage\", itemMode:\"TurboListItemMode_Existing\", itemType:\"TurboListItemType_Image\", screenShotFile:\"Screen0001.png\", searchType:\"Precise to Pixel\", skipStep:False, userModified:False, usingTempImageName:False, waitForTime:-1}, {captureRect:[78, 1082, 249, 1112], elementName:\"PRODUCTSTORE_LogoText\", elementType:\"Checkpoint\", eventNum:-1, folderPath:\"\", hotSpot:[163.5, 106], imageName:\"PRODUCTSTORE_LogoText\", itemEvent:\"TurboListItemEvent_Element\", itemMode:\"TurboListItemMode_Existing\", itemType:\"TurboListItemType_Image\", screenShotFile:\"Screen0001.png\", searchType:\"Smoothed for Text\", skipStep:False, userModified:True, usingTempImageName:False, waitForTime:-1}, {captureRect:[417, 565, 486, 586], elementName:\"Phones\", elementType:\"Button\", eventNum:-1, folderPath:\"\", imageName:\"Phones_0002\", itemEvent:\"TurboListItemEvent_Element\", itemMode:\"TurboListItemMode_New\", itemType:\"TurboListItemType_OcrText\", OCRText:\"Phones\", screenShotFile:\"Screen0001.png\", searchType:\"Smoothed for Text\", skipStep:False, userModified:False, usingTempImageName:True, waitForTime:-1}, {captureRect:[417, 506, 491, 531], elementName:\"Laptops\", elementType:\"Button\", eventNum:-1, folderPath:\"\", imageName:\"Laptops_0002\", itemEvent:\"TurboListItemEvent_Element\", itemMode:\"TurboListItemMode_New\", itemType:\"TurboListItemType_OcrText\", OCRText:\"Laptops\", screenShotFile:\"Screen0001.png\", searchType:\"Smoothed for Text\", skipStep:False, userModified:False, usingTempImageName:True, waitForTime:-1}]";
+    dilations = <*I3>;
+    maxSize = <*I300>;
+    minSize = <*I16>;
+    savedWithEpfVersion = <*I202304070406>;
+    sessionType = autoscanSession;
+    sessionUsesDOMObjects = <*BN>;
+}

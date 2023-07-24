@@ -1,0 +1,46 @@
+{
+	"lastmodifieddate": 1689932928.2950001,
+	"lastfoundlocation": [
+		12,
+		304,
+		47,
+		63
+	],
+	"originalcapturelocation": [
+		12,
+		304,
+		47,
+		63
+	],
+	"createddate": 1689932928.2950001,
+	"lastfounddate": 1689932928.605,
+	"testlocationdata": [
+		{
+				"connectionportnum": 5919,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[23,31]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "EdgeIcon.png",
+				"connectionname": "CloudSUT-8",
+				"type": 1,
+				"capturerect": [
+					12,
+					304,
+					47,
+					63
+				],
+				"connectiontype": "rdp",
+				"connectionserverid": "tcsesuts.eggplantlab.com"
+			}
+	],
+	"name": "EdgeIcon"
+}

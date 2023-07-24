@@ -1,0 +1,41 @@
+{
+	"originalcapturelocation": [
+		988,
+		729,
+		64,
+		24
+	],
+	"lastmodifieddate": 1684821175.448,
+	"createddate": 1684821175.448,
+	"name": "Nokia",
+	"lastfounddate": 1688455660.1230001,
+	"ocrcapturestring": "Nokia",
+	"lastfoundlocation": [
+		988,
+		697,
+		64,
+		24
+	],
+	"testlocationdata": [
+		{
+				"capturedocrtext": "Nokia",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[32,12]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"type": 1,
+				"capturerect": [
+					988,
+					729,
+					64,
+					24
+				],
+				"name": "Nokia.png"
+			}
+	]
+}

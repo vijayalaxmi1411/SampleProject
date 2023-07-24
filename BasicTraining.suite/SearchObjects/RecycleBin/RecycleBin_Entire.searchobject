@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		94,
+		401,
+		40,
+		44
+	],
+	"lastmodifieddate": 1680527702.0110002,
+	"createddate": 1680527702.0110002,
+	"name": "RecycleBin/RecycleBin_Entire",
+	"lastfounddate": 1689848702.9960001,
+	"ocrcapturestring": "a",
+	"lastfoundlocation": [
+		18,
+		9,
+		40,
+		44
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 5905,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[19,23]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "RecycleBin/RecycleBin_Entire.png",
+				"connectionname": "Partner-SUT-4",
+				"type": 1,
+				"connectionserverid": "3.8.94.207",
+				"capturerect": [
+					94,
+					401,
+					40,
+					44
+				],
+				"connectiontype": "rdp",
+				"capturedocrtext": "a"
+			}
+	]
+}
